@@ -1,0 +1,259 @@
+\documentclass[../general/general]{subfiles}
+
+\begin{document}
+
+\chapter{Лекция №10}
+\noindent\textit{А.\,М.~Белемук \hfill 17 апреля 2021}
+\vspace{1em}
+
+
+% ===== СЕКЦИЯ 1: Операторы рождения и уничтожения бозонов =====
+\section{Вторичное квантование для бозонов}
+
+Сегодня мы начинаем изучение вторичного квантования для системы бозонов. Рассматриваем $N$ нерелятивистских невзаимодействующих бозонных частиц в ящике объёма $V$.
+
+\subsection{Одночастичные состояния}
+
+Одночастичные орбитали --- плоские волны с периодическими граничными условиями:
+\begin{equation}
+    \varphi_\mathbf{p}(\mathbf{r}) = \frac{1}{\sqrt{V}}\,e^{i\mathbf{p}\cdot\mathbf{r}/\hbar}, \qquad \varepsilon_\mathbf{p} = \frac{\mathbf{p}^2}{2m}
+\end{equation}
+
+Импульс $\mathbf{p}$ принимает дискретные значения $\mathbf{p} = \frac{2\pi\hbar}{L}\mathbf{n}$, $\mathbf{n} \in \mathbb{Z}^3$.
+
+\subsection{Операторы рождения и уничтожения}
+
+Вводим для каждого состояния $\mathbf{p}$ пару операторов $\hat{a}_\mathbf{p}$ (уничтожения) и $\hat{a}^\dagger_\mathbf{p}$ (рождения), подчиняющихся \textbf{бозонским коммутационным соотношениям}:
+\begin{equation}
+    [\hat{a}_\mathbf{p},\,\hat{a}^\dagger_{\mathbf{p}'}] = \delta_{\mathbf{p}\mathbf{p}'}, \qquad
+    [\hat{a}_\mathbf{p},\,\hat{a}_{\mathbf{p}'}] = 0, \qquad
+    [\hat{a}^\dagger_\mathbf{p},\,\hat{a}^\dagger_{\mathbf{p}'}] = 0
+    \label{eq:bose_comm}
+\end{equation}
+
+Оператор числа частиц в состоянии $\mathbf{p}$:
+\begin{equation}
+    \hat{n}_\mathbf{p} = \hat{a}^\dagger_\mathbf{p}\hat{a}_\mathbf{p}, \qquad [\hat{n}_\mathbf{p},\,\hat{a}_\mathbf{p}] = -\hat{a}_\mathbf{p}, \qquad [\hat{n}_\mathbf{p},\,\hat{a}^\dagger_\mathbf{p}] = \hat{a}^\dagger_\mathbf{p}
+\end{equation}
+
+\subsection{Вакуумное состояние и построение базисных векторов}
+
+Вакуумное состояние $|0\rangle$ определяется условиями:
+\begin{equation}
+    \langle 0|0\rangle = 1, \qquad \hat{a}_\mathbf{p}|0\rangle = 0 \quad \forall\,\mathbf{p}
+\end{equation}
+
+Это не нулевой вектор, а нормированный вектор, описывающий состояние без частиц. Состояния с $n_\mathbf{p}$ бозонами в орбитали $\mathbf{p}$ строятся последовательным действием оператора рождения:
+\begin{equation}
+    |\mathbf{p};\,n\rangle = \frac{(\hat{a}^\dagger_\mathbf{p})^n}{\sqrt{n!}}\,|0\rangle
+\end{equation}
+
+Общее многочастичное состояние с числами заполнения $\{n_\mathbf{p}\}$ (сколько частиц находится в каждой орбитали):
+\begin{equation}
+    |\{n_\mathbf{p}\}\rangle = \prod_\mathbf{p} \frac{(\hat{a}^\dagger_\mathbf{p})^{n_\mathbf{p}}}{\sqrt{n_\mathbf{p}!}}\,|0\rangle
+    \label{eq:fock_state}
+\end{equation}
+
+% ===== КОНЕЦ СЕКЦИИ 1 =====
+
+
+% ===== СЕКЦИЯ 2: Пространство Фока =====
+\section{Пространство Фока}
+
+\subsection{Структура пространства}
+
+Стандартное пространство Гильберта квантовой механики описывает системы с фиксированным числом частиц. Вторичное квантование работает в \textbf{пространстве Фока} --- прямой сумме пространств для любого числа частиц:
+\begin{equation}
+    \mathcal{F} = \mathcal{B}_0 \oplus \mathcal{B}_1 \oplus \mathcal{B}_2 \oplus \cdots \oplus \mathcal{B}_N \oplus \cdots
+\end{equation}
+
+Здесь $\mathcal{B}_N$ --- гильбертово пространство $N$-частичных состояний бозонов. Элементы каждого подпространства:
+\begin{itemize}
+    \item $\mathcal{B}_0$: вакуум $|0\rangle$
+    \item $\mathcal{B}_1$: однoчастичные состояния $\hat{a}^\dagger_\mathbf{p}|0\rangle \equiv |\mathbf{p}\rangle$
+    \item $\mathcal{B}_N$: $N$-частичные состояния $|\{n_\mathbf{p}\}\rangle$, $\sum_\mathbf{p} n_\mathbf{p} = N$
+\end{itemize}
+
+\subsection{Базис пространства Фока}
+
+Введём сокращённое обозначение: набор всех чисел заполнения $\{n_\mathbf{p}\}$ обозначим $\alpha$. Тогда вектор~\eqref{eq:fock_state} записывается как $|\alpha\rangle$. Эти векторы образуют ортонормированный базис:
+\begin{equation}
+    \langle\alpha|\beta\rangle = \delta_{\alpha\beta}
+\end{equation}
+
+где $\delta_{\alpha\beta} = 1$ тогда и только тогда, когда все числа заполнения совпадают: $n_\mathbf{p}^{(\alpha)} = n_\mathbf{p}^{(\beta)}$ для всех $\mathbf{p}$.
+
+Произвольный вектор состояния $|\Psi\rangle \in \mathcal{F}$ разлагается по этому базису:
+\begin{equation}
+    |\Psi\rangle = \sum_\alpha c_\alpha\,|\alpha\rangle
+\end{equation}
+
+Оператор $\hat{a}_\mathbf{p}$ переводит $\mathcal{B}_N \to \mathcal{B}_{N-1}$, оператор $\hat{a}^\dagger_\mathbf{p}$ --- $\mathcal{B}_N \to \mathcal{B}_{N+1}$.
+
+% ===== КОНЕЦ СЕКЦИИ 2 =====
+
+
+% ===== СЕКЦИЯ 3: Гамильтониан в пространстве Фока =====
+\section{Операторы в пространстве Фока. Одночастичные операторы}
+
+\subsection{Гамильтониан без взаимодействия}
+
+Гамильтониан невзаимодействующей системы:
+\begin{equation}
+    \hat{H}_0 = \sum_{i=1}^N \hat{h}(\mathbf{r}_i), \qquad \hat{h}(\mathbf{r}) = -\frac{\hbar^2\nabla^2}{2m}
+\end{equation}
+
+является \textbf{однoчастичным оператором} (суммой операторов, каждый из которых действует только на одну частицу). Это же справедливо для любого оператора вида $\hat{F} = \sum_i f(\mathbf{r}_i)$.
+
+Утверждение: в представлении вторичного квантования любой однoчастичный оператор $\hat{F}$ записывается как:
+\begin{equation}
+    \boxed{\hat{F} = \sum_{\mathbf{p},\mathbf{p}'} \langle\mathbf{p}|f|\mathbf{p}'\rangle\,\hat{a}^\dagger_\mathbf{p}\hat{a}_{\mathbf{p}'}}
+    \label{eq:one_body}
+\end{equation}
+
+где $\langle\mathbf{p}|f|\mathbf{p}'\rangle = \int d^3r\,\varphi^*_\mathbf{p}(\mathbf{r})\,f(\mathbf{r})\,\varphi_{\mathbf{p}'}(\mathbf{r})$ --- матричный элемент однoчастичного оператора.
+
+\subsection{Гамильтониан в собственном базисе}
+
+Если в качестве базиса выбрать собственные функции $\hat{h}$, то матрица $\langle\mathbf{p}|h|\mathbf{p}'\rangle = \varepsilon_\mathbf{p}\delta_{\mathbf{p}\mathbf{p}'}$ диагональна. Формула~\eqref{eq:one_body} даёт:
+\begin{equation}
+    \hat{H}_0 = \sum_\mathbf{p} \varepsilon_\mathbf{p}\,\hat{a}^\dagger_\mathbf{p}\hat{a}_\mathbf{p} = \sum_\mathbf{p} \varepsilon_\mathbf{p}\,\hat{n}_\mathbf{p}
+    \label{eq:H0_diag}
+\end{equation}
+
+Это в точности аналог гамильтониана фотонного поля или фононов. Формула~\eqref{eq:H0_diag} действует сразу на всё пространство Фока: не надо думать о фиксированном числе частиц.
+
+Действие на базисный вектор:
+\begin{equation}
+    \hat{H}_0\,|\{n_\mathbf{p}\}\rangle = \left(\sum_\mathbf{p} \varepsilon_\mathbf{p}\,n_\mathbf{p}\right)|\{n_\mathbf{p}\}\rangle
+\end{equation}
+
+\subsection{Пример: оператор полного импульса}
+
+Оператор полного импульса системы $\hat{\mathbf{P}} = \sum_i \hat{\mathbf{p}}_i$ --- также однoчастичный. Матричный элемент:
+\begin{equation}
+    \langle\mathbf{p}|\hat{\mathbf{p}}_{\text{one}}|\mathbf{p}'\rangle = \int d^3r\,\varphi^*_\mathbf{p}(\mathbf{r})\!\left(-i\hbar\nabla\right)\varphi_{\mathbf{p}'}(\mathbf{r}) = \mathbf{p}'\,\delta_{\mathbf{p}\mathbf{p}'}
+\end{equation}
+
+Поэтому:
+\begin{equation}
+    \hat{\mathbf{P}} = \sum_\mathbf{p} \mathbf{p}\,\hat{a}^\dagger_\mathbf{p}\hat{a}_\mathbf{p}
+\end{equation}
+
+% ===== КОНЕЦ СЕКЦИИ 3 =====
+
+
+% ===== СЕКЦИЯ 4: Полевые операторы =====
+\section{Полевые операторы $\hat{\psi}(\mathbf{r})$ и $\hat{\psi}^\dagger(\mathbf{r})$}
+
+\subsection{Определение и смысл}
+
+До сих пор базисом служили плоские волны (собственные функции $\hat{h}$). Перейдём к другому базису: собственным функциям оператора координаты $\hat{\mathbf{r}}$, то есть к состояниям, локализованным в точке $\mathbf{r}$.
+
+Определим \textbf{полевые операторы}:
+\begin{equation}
+    \hat{\psi}(\mathbf{r}) = \sum_\mathbf{p} \varphi_\mathbf{p}(\mathbf{r})\,\hat{a}_\mathbf{p}, \qquad
+    \hat{\psi}^\dagger(\mathbf{r}) = \sum_\mathbf{p} \varphi^*_\mathbf{p}(\mathbf{r})\,\hat{a}^\dagger_\mathbf{p}
+    \label{eq:field_ops}
+\end{equation}
+
+Это в точности разложение волновой функции по плоским волнам --- но с тем отличием, что коэффициенты $\hat{a}_\mathbf{p}$ заменены на \emph{операторы}. Поэтому и метод называется \emph{вторичным квантованием}: классические коэффициенты разложения «квантуются».
+
+Физический смысл:
+\begin{itemize}
+    \item $\hat{\psi}^\dagger(\mathbf{r})$ --- оператор рождения частицы в точке $\mathbf{r}$: $\hat{\psi}^\dagger(\mathbf{r})|0\rangle = |\mathbf{r}\rangle$
+    \item $\hat{\psi}(\mathbf{r})$ --- оператор уничтожения частицы в точке $\mathbf{r}$
+\end{itemize}
+
+\subsection{Коммутационные соотношения полевых операторов}
+
+Из бозонских соотношений~\eqref{eq:bose_comm} и условия полноты $\sum_\mathbf{p}\varphi^*_\mathbf{p}(\mathbf{r})\varphi_\mathbf{p}(\mathbf{r}') = \delta^{(3)}(\mathbf{r}-\mathbf{r}')$ следует:
+\begin{equation}
+    [\hat{\psi}(\mathbf{r}),\,\hat{\psi}^\dagger(\mathbf{r}')] = \delta^{(3)}(\mathbf{r}-\mathbf{r}')
+    \label{eq:field_comm}
+\end{equation}
+\begin{equation}
+    [\hat{\psi}(\mathbf{r}),\,\hat{\psi}(\mathbf{r}')] = 0, \qquad [\hat{\psi}^\dagger(\mathbf{r}),\,\hat{\psi}^\dagger(\mathbf{r}')] = 0
+\end{equation}
+
+\textbf{Вывод соотношения~\eqref{eq:field_comm}.} Подставим разложения~\eqref{eq:field_ops}:
+\begin{equation}
+    [\hat{\psi}(\mathbf{r}),\,\hat{\psi}^\dagger(\mathbf{r}')] = \sum_{\mathbf{p},\mathbf{p}'}\varphi_\mathbf{p}(\mathbf{r})\,\varphi^*_{\mathbf{p}'}(\mathbf{r}')\,[\hat{a}_\mathbf{p},\,\hat{a}^\dagger_{\mathbf{p}'}]
+    = \sum_\mathbf{p}\varphi_\mathbf{p}(\mathbf{r})\,\varphi^*_\mathbf{p}(\mathbf{r}') = \delta^{(3)}(\mathbf{r}-\mathbf{r}')
+\end{equation}
+
+\subsection{Оператор плотности числа частиц}
+
+Рассмотрим комбинацию $\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}(\mathbf{r})$. Она является \textbf{оператором плотности числа частиц} в точке $\mathbf{r}$:
+\begin{equation}
+    \hat{\rho}(\mathbf{r}) = \hat{\psi}^\dagger(\mathbf{r})\hat{\psi}(\mathbf{r})
+\end{equation}
+
+Оператор полного числа частиц:
+\begin{equation}
+    \hat{N} = \sum_\mathbf{p}\hat{a}^\dagger_\mathbf{p}\hat{a}_\mathbf{p} = \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}(\mathbf{r})
+    \label{eq:N_field}
+\end{equation}
+
+Коммутационные соотношения с $\hat{N}$:
+\begin{equation}
+    [\hat{\psi}(\mathbf{r}),\,\hat{N}] = \hat{\psi}(\mathbf{r}), \qquad [\hat{\psi}^\dagger(\mathbf{r}),\,\hat{N}] = -\hat{\psi}^\dagger(\mathbf{r})
+\end{equation}
+
+Следствие: $\hat{\psi}(\mathbf{r})$ переводит $N$-частичные состояния в $(N-1)$-частичные, а $\hat{\psi}^\dagger(\mathbf{r})$ --- в $(N+1)$-частичные.
+
+% ===== КОНЕЦ СЕКЦИИ 4 =====
+
+
+% ===== СЕКЦИЯ 5: Гамильтониан через полевые операторы =====
+\section{Гамильтониан через полевые операторы}
+
+\subsection{Однoчастичный гамильтониан}
+
+Подставив разложения~\eqref{eq:field_ops} в выражение для $\hat{H}_0$ и используя~\eqref{eq:one_body}:
+\begin{equation}
+    \hat{H}_0 = \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\!\left(-\frac{\hbar^2\nabla^2}{2m}\right)\hat{\psi}(\mathbf{r})
+    \label{eq:H0_field}
+\end{equation}
+
+Здесь дифференциальный оператор $-\hbar^2\nabla^2/(2m)$ действует на $\hat{\psi}(\mathbf{r})$ как на функцию координаты, а весь оператор $\hat{H}_0$ действует в пространстве Фока.
+
+\textbf{Проверка.} Подействуем~\eqref{eq:H0_field} на состояние $|1_\mathbf{p}\rangle = \hat{a}^\dagger_\mathbf{p}|0\rangle$:
+
+\begin{align}
+    \hat{H}_0\,|1_\mathbf{p}\rangle &= \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\!\left(-\frac{\hbar^2\nabla^2}{2m}\right)\hat{\psi}(\mathbf{r})\,\hat{a}^\dagger_\mathbf{p}|0\rangle \notag\\
+    &= \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\!\left(-\frac{\hbar^2\nabla^2}{2m}\right)\!\left(\varphi_\mathbf{p}(\mathbf{r})\,\hat{a}_\mathbf{p}\hat{a}^\dagger_\mathbf{p}|0\rangle + \hat{a}^\dagger_\mathbf{p}\hat{\psi}(\mathbf{r})|0\rangle\right)
+\end{align}
+
+Второе слагаемое обращается в нуль (оператор уничтожения на вакуум). Используя $[\hat{a}_\mathbf{p},\hat{a}^\dagger_\mathbf{p}] = 1$:
+\begin{equation}
+    \hat{H}_0\,|1_\mathbf{p}\rangle = \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\!\left(-\frac{\hbar^2\nabla^2}{2m}\right)\varphi_\mathbf{p}(\mathbf{r})\cdot|0\rangle = \varepsilon_\mathbf{p}\int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\,\varphi_\mathbf{p}(\mathbf{r})\,|0\rangle = \varepsilon_\mathbf{p}\,|1_\mathbf{p}\rangle
+\end{equation}
+
+Результат совпадает с ожидаемым.
+
+\subsection{Двухчастичный оператор взаимодействия}
+
+Оператор попарного взаимодействия:
+\begin{equation}
+    \hat{V} = \frac{1}{2}\sum_{i\neq j} v(\mathbf{r}_i - \mathbf{r}_j) = \frac{1}{2}\sum_{i\neq j} f(\mathbf{r}_i,\,\mathbf{r}_j)
+\end{equation}
+
+является \textbf{двухчастичным оператором}: он действует одновременно на координаты двух частиц. В представлении вторичного квантования двухчастичные операторы записываются в виде (вывод --- на следующей лекции):
+\begin{equation}
+    \hat{V} = \frac{1}{2}\int d^3r\,d^3r'\,\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}^\dagger(\mathbf{r}')\,v(\mathbf{r}-\mathbf{r}')\,\hat{\psi}(\mathbf{r}')\hat{\psi}(\mathbf{r})
+    \label{eq:V_field}
+\end{equation}
+
+Полный гамильтониан взаимодействующего бозонного газа:
+\begin{equation}
+    \hat{H} = \hat{H}_0 + \hat{V} = \int d^3r\,\hat{\psi}^\dagger(\mathbf{r})\!\left(-\frac{\hbar^2\nabla^2}{2m}\right)\hat{\psi}(\mathbf{r}) + \frac{1}{2}\int d^3r\,d^3r'\,\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}^\dagger(\mathbf{r}')\,v(\mathbf{r}-\mathbf{r}')\,\hat{\psi}(\mathbf{r}')\hat{\psi}(\mathbf{r})
+    \label{eq:H_full}
+\end{equation}
+
+На следующей лекции мы выведем~\eqref{eq:V_field} и применим полный гамильтониан~\eqref{eq:H_full} к изучению слабо-неидеального бозонного газа.
+
+% ===== КОНЕЦ СЕКЦИИ 5 =====
+
+
+\end{document}

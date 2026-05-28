@@ -1,0 +1,327 @@
+\documentclass[../general/general]{subfiles}
+
+\begin{document}
+
+\chapter{Лекция №9}
+\noindent\textit{А.\,М.~Белемук \hfill 10 апреля 2021}
+\vspace{1em}
+
+
+% ===== СЕКЦИЯ 1: Завершение теории флуктуаций =====
+\section{Квазиравновесные флуктуации тела в среде: рабочие формулы}
+
+\subsection{Напоминание: вероятность флуктуации}
+
+На прошлой лекции мы установили формулу для вероятности флуктуации тела, погружённого в среду с температурой $T_0$ и давлением $P_0$:
+\begin{equation}
+    W \propto \exp\!\left(-\frac{\Delta E - T_0\,\Delta S + P_0\,\Delta V}{T_0}\right)
+    \label{eq:W_medium_9}
+\end{equation}
+где $\Delta E$, $\Delta S$, $\Delta V$ --- отклонения энергии, энтропии и объёма тела от равновесных значений.
+
+\subsection{Переход к рабочей формуле}
+
+Раскроем числитель показателя экспоненты. Считаем отклонения малыми и разлагаем $\Delta E$ по приращениям $\Delta S$ и $\Delta V$ до второго порядка. Функциональная зависимость $E(S,V)$ берётся такой же, как в равновесии. Тогда:
+\begin{equation}
+    \Delta E = T_0\,\Delta S - P_0\,\Delta V + \frac{1}{2}\,d^2E + \ldots
+\end{equation}
+
+Члены первого порядка в $\Delta E - T_0\Delta S + P_0\Delta V$ сокращаются (именно это и означает равновесие: $(\partial E/\partial S)_V = T_0$, $(\partial E/\partial V)_S = -P_0$). Остаётся:
+\begin{equation}
+    \Delta E - T_0\,\Delta S + P_0\,\Delta V = \frac{1}{2}\,d^2E
+\end{equation}
+
+Второй дифференциал $d^2E$ можно переписать через приращения температуры и давления. Используя $dT = (\partial T/\partial S)_V\,dS + (\partial T/\partial V)_S\,dV$ и аналогичное для $dP$, получается:
+\begin{equation}
+    \frac{1}{2}\,d^2E = \frac{1}{2}\!\left(\Delta T\,\Delta S - \Delta P\,\Delta V\right)
+\end{equation}
+
+Таким образом, \textbf{рабочая формула} для вероятности квазиравновесных флуктуаций:
+\begin{equation}
+    \boxed{W \propto \exp\!\left(-\frac{\Delta T\,\Delta S - \Delta P\,\Delta V}{2T}\right)}
+    \label{eq:W_work}
+\end{equation}
+где $T$ --- равновесная температура тела.
+
+\subsection{Средние квадратичные флуктуации}
+
+Формула~\eqref{eq:W_work} имеет вид произведения двух гауссианов, если выбрать подходящие пары независимых переменных. При выборе пар $(\Delta S,\,\Delta P)$ или $(\Delta T,\,\Delta V)$ перекрёстные корреляции обращаются в нуль, и результаты читаются непосредственно:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ll}
+\hline
+Флуктуация & Среднеквадратичное значение \\
+\hline
+$\langle(\Delta S)^2\rangle$ & $C_P$ \\[2pt]
+$\langle(\Delta P)^2\rangle$ & $\dfrac{T}{V\,\kappa_S}$ \\[8pt]
+$\langle(\Delta T)^2\rangle$ & $\dfrac{T^2}{C_V}$ \\[8pt]
+$\langle(\Delta V)^2\rangle$ & $T\,V\,\kappa_T$ \\
+\hline
+\end{tabular}
+\end{center}
+
+Перекрёстные корреляции: $\langle\Delta S\,\Delta P\rangle = 0$ и $\langle\Delta T\,\Delta V\rangle = 0$.
+
+\subsection{Флуктуации интенсивных и экстенсивных переменных}
+
+Из приведённых формул видна важная закономерность. \emph{Интенсивные} переменные ($T$, $P$) флуктуируют так, что их среднеквадратичное отклонение пропорционально $1/\sqrt{N}$:
+\begin{equation}
+    \frac{\sqrt{\langle(\Delta T)^2\rangle}}{T} \propto \frac{1}{\sqrt{N}}
+\end{equation}
+
+\emph{Экстенсивные} переменные ($S$, $V$, $E$) имеют абсолютные флуктуации $\sim\sqrt{N}$, а относительные --- также $1/\sqrt{N}$:
+\begin{equation}
+    \frac{\sqrt{\langle(\Delta V)^2\rangle}}{\langle V\rangle} \propto \frac{1}{\sqrt{N}}
+\end{equation}
+
+Таким образом, при $N \to \infty$ все относительные флуктуации стремятся к нулю, что обосновывает применимость термодинамики к макроскопическим системам.
+
+% ===== КОНЕЦ СЕКЦИИ 1 =====
+
+
+% ===== СЕКЦИЯ 2: Гармонический осциллятор =====
+\section{Конденсированные тела. Фононы и модель Дебая}
+
+Переходим к новой большой теме --- системам со взаимодействием. Первый пример: \textbf{кристаллическая решётка} в гармоническом приближении. Мы будем рассматривать диэлектрик, чтобы исключить электронные степени свободы.
+
+\subsection{Квантовый гармонический осциллятор}
+
+Напомним ключевые факты из квантовой механики. Гамильтониан гармонического осциллятора:
+\begin{equation}
+    \hat{H} = \frac{\hat{p}^2}{2m} + \frac{m\omega^2\hat{x}^2}{2} = \hbar\omega\!\left(\hat{a}^\dagger\hat{a} + \frac{1}{2}\right)
+\end{equation}
+
+Операторы $\hat{a}$ и $\hat{a}^\dagger$ (уничтожения и рождения) подчиняются \emph{бозонским} коммутационным соотношениям:
+\begin{equation}
+    [\hat{a},\,\hat{a}^\dagger] = 1, \qquad [\hat{a},\,\hat{a}] = [\hat{a}^\dagger,\,\hat{a}^\dagger] = 0
+\end{equation}
+
+Собственные состояния $|n\rangle$ строятся из вакуума $|0\rangle$ действием оператора рождения:
+\begin{equation}
+    |n\rangle = \frac{(\hat{a}^\dagger)^n}{\sqrt{n!}}\,|0\rangle, \qquad \hat{a}|0\rangle = 0
+\end{equation}
+
+Соответствующие собственные значения энергии:
+\begin{equation}
+    E_n = \hbar\omega\!\left(n + \frac{1}{2}\right), \quad n = 0,1,2,\ldots
+\end{equation}
+
+Оператор $\hat{N} = \hat{a}^\dagger\hat{a}$ --- оператор числа возбуждений; его собственные значения $n$ --- целые неотрицательные числа.
+
+% ===== КОНЕЦ СЕКЦИИ 2 =====
+
+
+% ===== СЕКЦИЯ 3: Фононы в кристаллической решётке =====
+\section{Гамильтониан кристаллической решётки. Нормальные координаты}
+
+\subsection{Равновесные положения и смещения}
+
+Атомы кристалла в равновесии занимают узлы решётки, задаваемые целочисленными векторами:
+\begin{equation}
+    \mathbf{R}_\mathbf{n} = (n_x,\,n_y,\,n_z)\cdot a, \quad \mathbf{n} = (n_x,n_y,n_z) \in \mathbb{Z}^3
+\end{equation}
+где $a$ --- постоянная решётки. Обозначим смещение атома из узла $\mathbf{n}$ от положения равновесия вектором $\mathbf{u}_\mathbf{n}$.
+
+\subsection{Гамильтониан в гармоническом приближении}
+
+Если разложить потенциальную энергию взаимодействия атомов до второго порядка по смещениям, получим \emph{гармонический гамильтониан}:
+\begin{equation}
+    \hat{H} = \sum_{\mathbf{n}} \frac{\hat{p}_{\mathbf{n}}^2}{2m} + \frac{1}{2}\sum_{\mathbf{n},\mathbf{n}'}\sum_{\alpha,\beta} \Phi_{\alpha\beta}(\mathbf{n},\mathbf{n}')\,\hat{u}_{\alpha,\mathbf{n}}\,\hat{u}_{\beta,\mathbf{n}'}
+    \label{eq:H_lattice}
+\end{equation}
+
+Здесь $m$ --- масса атома, $\hat{p}_{\mathbf{n}}$ --- оператор импульса атома в узле $\mathbf{n}$, $\alpha,\beta \in \{x,y,z\}$ --- декартовы компоненты, а $\Phi_{\alpha\beta}(\mathbf{n},\mathbf{n}')$ --- \emph{динамическая матрица}, описывающая силовые константы взаимодействия между атомами в узлах $\mathbf{n}$ и $\mathbf{n}'$. Канонические переменные удовлетворяют:
+\begin{equation}
+    [\hat{u}_{\alpha,\mathbf{n}},\,\hat{p}_{\beta,\mathbf{n}'}] = i\hbar\,\delta_{\mathbf{n}\mathbf{n}'}\,\delta_{\alpha\beta}
+\end{equation}
+
+По существу~\eqref{eq:H_lattice} описывает \textbf{систему связанных гармонических осцилляторов}.
+
+\subsection{Нормальные координаты и моды колебаний}
+
+Квадратичная форма~\eqref{eq:H_lattice} диагонализируется унитарным преобразованием (переход к нормальным координатам). После диагонализации:
+\begin{equation}
+    \hat{H} = \sum_{\mathbf{q},s} \hbar\omega_{\mathbf{q}s}\!\left(\hat{a}^\dagger_{\mathbf{q}s}\hat{a}_{\mathbf{q}s} + \frac{1}{2}\right)
+    \label{eq:H_phonon}
+\end{equation}
+
+Каждая \textbf{мода} характеризуется:
+\begin{itemize}
+    \item волновым вектором $\mathbf{q}$,
+    \item поляризацией $s = 1, 2, 3$ (две поперечные, одна продольная),
+    \item частотой $\omega_{\mathbf{q}s}$.
+\end{itemize}
+
+Операторы $\hat{a}_{\mathbf{q}s}$, $\hat{a}^\dagger_{\mathbf{q}s}$ удовлетворяют бозонским коммутационным соотношениям. Кванты возбуждения каждой моды называются \textbf{фононами}. Фононы --- боссонские квазичастицы.
+
+Общий собственный вектор $\hat{H}$:
+\begin{equation}
+    |\{n_{\mathbf{q}s}\}\rangle = \prod_{\mathbf{q},s} \frac{(\hat{a}^\dagger_{\mathbf{q}s})^{n_{\mathbf{q}s}}}{\sqrt{n_{\mathbf{q}s}!}}\,|0\rangle, \qquad E = \sum_{\mathbf{q},s}\hbar\omega_{\mathbf{q}s}\!\left(n_{\mathbf{q}s} + \frac{1}{2}\right)
+\end{equation}
+
+% ===== КОНЕЦ СЕКЦИИ 3 =====
+
+
+% ===== СЕКЦИЯ 4: Первая зона Бриллюэна и число мод =====
+\section{Первая зона Бриллюэна. Число фононных мод}
+
+\subsection{Дискретность узлов и эквивалентность волновых векторов}
+
+Смещение $\mathbf{u}_\mathbf{n}$ определено только на дискретных узлах решётки. При разложении в ряд Фурье:
+\begin{equation}
+    \mathbf{u}_\mathbf{n} = \frac{1}{\sqrt{N}}\sum_\mathbf{q} \tilde{\mathbf{u}}_\mathbf{q}\,e^{i\mathbf{q}\cdot\mathbf{R}_\mathbf{n}}
+\end{equation}
+
+Из дискретности множества узлов следует, что волновые векторы $\mathbf{q}$ и $\mathbf{q}' = \mathbf{q} + \frac{2\pi}{a}\mathbf{m}$ (где $\mathbf{m} \in \mathbb{Z}^3$) физически эквивалентны: они задают одну и ту же колебательную моду. Это означает, что все независимые моды содержатся в одной \textbf{первой зоне Бриллюэна}:
+\begin{equation}
+    q_\alpha \in \left[-\frac{\pi}{a},\,\frac{\pi}{a}\right], \quad \alpha = x,y,z
+\end{equation}
+
+\subsection{Число мод}
+
+В кристалле с $N$ атомами и $N$ элементарными ячейками волновой вектор $\mathbf{q}$ принимает ровно $N$ дискретных значений в первой зоне Бриллюэна. С учётом трёх поляризаций ($s = 1, 2, 3$) полное число фононных мод:
+\begin{equation}
+    \boxed{\text{число мод} = 3N}
+    \label{eq:num_modes}
+\end{equation}
+
+Это ровно соответствует числу степеней свободы системы из $N$ атомов в 3D --- как и должно быть.
+
+\textbf{Отличие от фотонов:} у фотонов волновой вектор принимает любые значения (непрерывный спектр, $|\mathbf{k}| \to \infty$), число мод неограничено. У фононов число мод конечно из-за дискретности решётки.
+
+% ===== КОНЕЦ СЕКЦИИ 4 =====
+
+
+% ===== СЕКЦИЯ 5: Приближение Дебая =====
+\section{Приближение Дебая}
+
+\subsection{Дисперсия фононов}
+
+В реальном кристалле дисперсионные ветви $\omega_{\mathbf{q}s}$ при малых $|\mathbf{q}|$ линейны (звуковые волны):
+\begin{equation}
+    \omega_{\mathbf{q}s} \approx c_s\,|\mathbf{q}|, \quad |\mathbf{q}|\,a \ll 1
+\end{equation}
+где $c_s$ --- скорость звука соответствующей поляризации ($c_l$ для продольной, $c_t$ для поперечных). При приближении к границе зоны Бриллюэна дисперсия становится нелинейной.
+
+\subsection{Плотность фононных мод}
+
+Перейдём от суммирования по $\mathbf{q}$ к интегрированию. Каждая точка $\mathbf{q}$ занимает объём $(2\pi/L)^3$ в $\mathbf{q}$-пространстве, откуда плотность точек равна $V/(2\pi)^3$. При суммировании по модам с функцией, зависящей только от частоты:
+\begin{equation}
+    \sum_{\mathbf{q},s} f(\omega_{\mathbf{q}s}) \longrightarrow \frac{V}{(2\pi)^3}\sum_s \int d^3q\, f(\omega_{\mathbf{q}s}) = \int_0^\infty g(\omega)\,f(\omega)\,d\omega
+\end{equation}
+
+\textbf{Приближение Дебая}: считаем продольную и поперечные скорости звука одинаковыми: $c_l \approx c_t \equiv c$, и линейный закон дисперсии $\omega = c\,|\mathbf{q}|$ распространяем на всю зону Бриллюэна вплоть до граничной частоты $\omega_D$. Тогда при замене $d^3q = 4\pi q^2\,dq$ и $q = \omega/c$:
+\begin{equation}
+    g(\omega) = \frac{3V}{2\pi^2\,c^3}\,\omega^2, \quad 0 \leq \omega \leq \omega_D
+    \label{eq:dos_debye}
+\end{equation}
+
+\subsection{Частота Дебая}
+
+Частота $\omega_D$ определяется условием нормировки~\eqref{eq:num_modes}: суммарное число мод равно $3N$:
+\begin{equation}
+    \int_0^{\omega_D} g(\omega)\,d\omega = \frac{3V}{2\pi^2\,c^3}\cdot\frac{\omega_D^3}{3} = 3N
+\end{equation}
+
+Откуда:
+\begin{equation}
+    \boxed{\omega_D = c\!\left(6\pi^2\,\frac{N}{V}\right)^{1/3} = c\!\left(6\pi^2 n\right)^{1/3}}
+    \label{eq:omega_D}
+\end{equation}
+
+Это означает, что $q_D = \omega_D/c \sim \pi/a$ --- вектор Дебая лежит вблизи границы зоны Бриллюэна.
+
+\subsection{Температура Дебая}
+
+Вводим \textbf{температуру Дебая}:
+\begin{equation}
+    T_D = \hbar\omega_D
+\end{equation}
+
+Для большинства кристаллов $T_D \sim 10^2$--$10^3$ К. Например, для меди $T_D \approx 340$ К, для алмаза $T_D \approx 1860$ К.
+
+Оценка: при $c \sim 10^5$ см/с и $a \sim 10^{-8}$ см получаем $\omega_D \sim c/a \sim 10^{13}$ рад/с.
+
+% ===== КОНЕЦ СЕКЦИИ 5 =====
+
+
+% ===== СЕКЦИЯ 6: Термодинамика фононного газа =====
+\section{Энергия и теплоёмкость кристаллической решётки}
+
+\subsection{Средняя энергия}
+
+Среднее число фононов в моде $(\mathbf{q},s)$ при температуре $T$ даётся функцией распределения Бозе--Эйнштейна:
+\begin{equation}
+    \langle n_{\mathbf{q}s}\rangle = \frac{1}{e^{\hbar\omega_{\mathbf{q}s}/T} - 1}
+\end{equation}
+
+Средняя энергия (без учёта нулевых колебаний $\hbar\omega/2$):
+\begin{equation}
+    \langle E\rangle = \sum_{\mathbf{q},s} \frac{\hbar\omega_{\mathbf{q}s}}{e^{\hbar\omega_{\mathbf{q}s}/T} - 1} \longrightarrow \int_0^{\omega_D} g(\omega)\cdot\frac{\hbar\omega}{e^{\hbar\omega/T}-1}\,d\omega
+\end{equation}
+
+В приближении Дебая подставляем~\eqref{eq:dos_debye} и делаем замену $x = \hbar\omega/T$:
+\begin{equation}
+    \langle E\rangle = \frac{3V}{2\pi^2\,c^3}\int_0^{\omega_D}\frac{\hbar\omega^3}{e^{\hbar\omega/T}-1}\,d\omega = 9N\,T\!\left(\frac{T}{T_D}\right)^{\!3}\int_0^{T_D/T}\frac{x^3}{e^x-1}\,dx
+    \label{eq:E_debye}
+\end{equation}
+
+\subsection{Низкотемпературный предел ($T \ll T_D$)}
+
+При $T \ll T_D$ верхний предел интегрирования $T_D/T \to \infty$:
+\begin{equation}
+    \int_0^{\infty}\frac{x^3}{e^x-1}\,dx = \Gamma(4)\,\zeta(4) = 6\cdot\frac{\pi^4}{90} = \frac{\pi^4}{15}
+\end{equation}
+
+Подставляя в~\eqref{eq:E_debye}:
+\begin{equation}
+    \langle E\rangle = \frac{3\pi^4}{5}\,N\,T\!\left(\frac{T}{T_D}\right)^{\!3} = \frac{3\pi^4}{5}\,\frac{N\,T^4}{T_D^3}
+    \label{eq:E_lowT}
+\end{equation}
+
+Теплоёмкость при $T \ll T_D$:
+\begin{equation}
+    \boxed{C_V = \frac{dE}{dT} = \frac{12\pi^4}{5}\,N\!\left(\frac{T}{T_D}\right)^{\!3} \propto T^3}
+    \label{eq:Cv_T3}
+\end{equation}
+
+\textbf{Закон Дебая $T^3$}: при низких температурах теплоёмкость кристаллической решётки убывает как $T^3$. Это превосходно подтверждается экспериментом.
+
+\subsection{Высокотемпературный предел ($T \gg T_D$)}
+
+При $T \gg T_D$ переменная $x = \hbar\omega/T \ll 1$ мала во всём диапазоне интегрирования. Разложим знаменатель: $e^x - 1 \approx x$, откуда $x/(e^x - 1) \approx 1$. Тогда:
+\begin{equation}
+    \int_0^{T_D/T}\frac{x^3}{e^x-1}\,dx \approx \int_0^{T_D/T} x^2\,dx = \frac{1}{3}\!\left(\frac{T_D}{T}\right)^{\!3}
+\end{equation}
+
+Подставляя:
+\begin{equation}
+    \langle E\rangle \approx 9N\,T\!\left(\frac{T}{T_D}\right)^{\!3}\cdot\frac{1}{3}\!\left(\frac{T_D}{T}\right)^{\!3} = 3NT
+    \label{eq:E_highT}
+\end{equation}
+
+Теплоёмкость при $T \gg T_D$:
+\begin{equation}
+    \boxed{C_V = 3N}
+    \label{eq:Cv_dulongpetit}
+\end{equation}
+
+Это \textbf{закон Дюлонга--Пти}: при высоких температурах теплоёмкость кристалла не зависит от температуры и равна $3N$ (три степени свободы на атом $\times$ $T$ по теореме об экви\-пар\-тиции). Он хорошо известен из курса общей физики.
+
+\subsection{Зависимость теплоёмкости от температуры}
+
+Итог: теплоёмкость кристаллической решётки в модели Дебая как функция $T$:
+
+\begin{itemize}
+    \item При $T \ll T_D$: $C_V \propto T^3$ --- убывает к нулю (третье начало термодинамики).
+    \item В области $T \sim T_D$: монотонный рост от нуля до плато.
+    \item При $T \gg T_D$: $C_V \to 3N$ (закон Дюлонга--Пти).
+\end{itemize}
+
+Качественно эта зависимость прекрасно воспроизводит экспериментальные кривые теплоёмкости реальных кристаллов: низкотемпературный кубический закон и высокотемпературное плато.
+
+% ===== КОНЕЦ СЕКЦИИ 6 =====
+
+
+\end{document}

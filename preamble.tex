@@ -1,0 +1,21 @@
+\usepackage{fontspec}
+\usepackage[english, russian]{babel} % Russian — последний, значит основной
+
+\usepackage{geometry}
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\setmainfont{cmunrm.otf}[
+  BoldFont        = cmunbx.otf,
+  ItalicFont      = cmunti.otf,
+  BoldItalicFont  = cmunbi.otf
+]
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subfiles}
+
+% Пути к изображениям всех лекций (работает и при сборке general, и при standalone-компиляции)
+\graphicspath{{../1/images/}{../2/images/}{../3/images/}{../4/images/}{../5/images/}}

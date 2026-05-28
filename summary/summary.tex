@@ -1,0 +1,301 @@
+\documentclass[a4paper,10pt]{article}
+
+\input{../preamble}
+
+\geometry{left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{array}
+\setlength{\columnsep}{0.6cm}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{0pt}
+
+\title{\textbf{Статистическая физика: главные формулы и идеи}}
+\author{А.\,М.~Белемук}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{-1em}
+\begin{multicols}{2}
+
+% ============================================================
+\section*{1. Основы термодинамики}
+
+\textbf{Первое начало} (закон сохранения энергии для термодинамической системы):
+\begin{equation*}
+    dE = \delta Q - \delta W = \delta Q - P\,dV
+\end{equation*}
+Для обратимого процесса теплота $\delta Q = T\,dS$ и при постоянном числе частиц:
+\begin{equation*}
+    dE = T\,dS - P\,dV
+\end{equation*}
+Внутренняя энергия $E$ --- функция состояния; $\delta Q$ и $\delta W$ --- нет.
+
+\smallskip
+\textbf{Второе начало.} Для любого процесса (неравенство Клаузиуса):
+\begin{equation*}
+    dS \geq \frac{\delta Q}{T}
+\end{equation*}
+Знак равенства --- для обратимых процессов. Следствие для изолированной системы:
+\begin{equation*}
+    dS \geq 0 \quad \text{(энтропия не убывает)}
+\end{equation*}
+Максимальный КПД тепловой машины (цикл Карно):
+\begin{equation*}
+    \eta = 1 - \frac{T_2}{T_1} \leq 1
+\end{equation*}
+
+\textbf{Третье начало (теорема Нернста):} $S \to 0$ при $T \to 0$. Следствие: $C_V, C_P \to 0$ при $T \to 0$.
+
+\smallskip
+\textbf{Теорема о равнораспределении} (классическая статистика). Если гамильтониан является суммой независимых квадратичных по координатам и импульсам слагаемых $\varepsilon_i = a_i \xi_i^2$, то:
+\begin{equation*}
+    \langle \varepsilon_i \rangle = \frac{T}{2} \quad \text{на каждую квадратичную степень свободы}
+\end{equation*}
+Применения: одноатомный газ ($f = 3$ трансл.) --- $\langle E \rangle = \frac{3}{2}NT$; двухатомный ($f = 5$) --- $\frac{5}{2}NT$; кристалл ($3N$ осцилляторов, у каждого 2 квадр. ст.св.) --- $E = 3NT$, $C_V = 3N$ (закон Дюлонга--Пти).
+
+\smallskip
+\textbf{Идеальный одноатомный газ:}
+\begin{equation*}
+    PV = NT, \qquad E = \frac{3}{2}NT, \qquad C_V = \frac{3}{2}N,\quad C_P = \frac{5}{2}N
+\end{equation*}
+Показатель адиабаты $\gamma = C_P/C_V = 5/3$. Уравнение адиабаты:
+\begin{equation*}
+    PV^\gamma = \text{const}, \qquad TV^{\gamma-1} = \text{const}
+\end{equation*}
+
+\textbf{Соотношения Максвелла} (следуют из точности дифференциалов термопотенциалов):
+\begin{align*}
+    \left(\frac{\partial T}{\partial V}\right)_{\!S} &= -\left(\frac{\partial P}{\partial S}\right)_{\!V}
+    & \left(\frac{\partial T}{\partial P}\right)_{\!S} &= \left(\frac{\partial V}{\partial S}\right)_{\!P} \\[2pt]
+    \left(\frac{\partial S}{\partial V}\right)_{\!T} &= \left(\frac{\partial P}{\partial T}\right)_{\!V}
+    & \left(\frac{\partial S}{\partial P}\right)_{\!T} &= -\left(\frac{\partial V}{\partial T}\right)_{\!P}
+\end{align*}
+
+% ============================================================
+\section*{2. Статистические распределения}
+
+\textbf{Постулат равновероятности.} В изолированной системе все микросостояния с одинаковой энергией равновероятны. Энтропия Больцмана:
+\begin{equation*}
+    S = \ln W
+\end{equation*}
+где $W$ --- статистический вес. Это исходная точка всей статфизики; связывает микроскопику с термодинамикой.
+
+\textbf{Каноническое распределение Гиббса} (система при фиксированной $T$):
+\begin{equation*}
+    w_n = \frac{1}{Z}\,e^{-E_n/T}, \qquad Z = \sum_n e^{-E_n/T}
+\end{equation*}
+Свободная энергия --- мост к термодинамике:
+\begin{equation*}
+    F = -T\ln Z, \quad S = -\frac{\partial F}{\partial T},\quad P = -\frac{\partial F}{\partial V},\quad \mu = \frac{\partial F}{\partial N}
+\end{equation*}
+
+\textbf{Большой канонический ансамбль} (фиксированы $T$ и $\mu$):
+\begin{equation*}
+    w_{n,N} \propto e^{-(E_n - \mu N)/T},\qquad \Omega = -T\ln\Xi = -PV
+\end{equation*}
+
+\textbf{Квантовые идеальные газы.} Среднее число частиц в состоянии $\varepsilon$:
+\begin{align*}
+    \bar{n}_\varepsilon &= \frac{1}{e^{(\varepsilon-\mu)/T} - 1} \quad \text{(бозоны, БЭ)} \\[2pt]
+    \bar{n}_\varepsilon &= \frac{1}{e^{(\varepsilon-\mu)/T} + 1} \quad \text{(фермионы, ФД)}
+\end{align*}
+Классический предел ($e^{-\mu/T} \gg 1$): оба $\to$ распределению Больцмана $\bar{n} \propto e^{-\varepsilon/T}$.
+
+% ============================================================
+\section*{3. Конденсат Бозе--Эйнштейна}
+
+Для бозонов $\mu \leq 0$. При понижении $T$ химпотенциал $\mu$ растёт, при $T = T_c$ достигает нуля. Ниже $T_c$ макроскопическое число частиц занимает основное состояние ($\varepsilon = 0$):
+\begin{equation*}
+    N_0 = N\!\left[1 - \left(\frac{T}{T_c}\right)^{\!3/2}\right], \qquad
+    T_c = \frac{2\pi\hbar^2}{m}\!\left(\frac{n}{\zeta(3/2)}\right)^{\!2/3}
+\end{equation*}
+Это фазовый переход второго рода. Конденсат --- квантовая фаза с когерентной волновой функцией.
+
+% ============================================================
+\section*{4. Термодинамические потенциалы и устойчивость}
+
+Четыре потенциала с натуральными переменными:
+{\small
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Потенциал & Перем. & $dX$ \\
+\midrule
+$E$ & $S,V,N$ & $TdS - PdV + \mu dN$ \\
+$H = E+PV$ & $S,P,N$ & $TdS + VdP + \mu dN$ \\
+$F = E-TS$ & $T,V,N$ & $-SdT - PdV + \mu dN$ \\
+$\Phi = E-TS+PV$ & $T,P,N$ & $-SdT + VdP + \mu dN$ \\
+\bottomrule
+\end{tabular}
+}
+
+\textbf{Условия термодинамической устойчивости:}
+\begin{equation*}
+    C_V > 0, \quad \kappa_T > 0, \quad C_P \geq C_V, \quad \kappa_T \geq \kappa_S
+\end{equation*}
+Связь теплоёмкостей и сжимаемостей:
+\begin{equation*}
+    C_P - C_V = \frac{TV\alpha^2}{\kappa_T}, \qquad \frac{\kappa_T}{\kappa_S} = \frac{C_P}{C_V}
+\end{equation*}
+
+% ============================================================
+\section*{5. Флуктуации}
+
+\textbf{Формула Эйнштейна.} Вероятность флуктуации с отклонением потенциала $\Delta R$:
+\begin{equation*}
+    W \propto e^{-\Delta R/T_0}
+\end{equation*}
+
+\textbf{Рабочая формула} для флуктуаций любых параметров тела в среде:
+\begin{equation*}
+    W \propto \exp\!\left(-\frac{\Delta T\,\Delta S - \Delta P\,\Delta V}{2T}\right)
+\end{equation*}
+
+\textbf{Средние квадраты флуктуаций:}
+\begin{equation*}
+    \langle(\Delta T)^2\rangle = \frac{T^2}{C_V}, \quad
+    \langle(\Delta V)^2\rangle = T V\kappa_T
+\end{equation*}
+\begin{equation*}
+    \langle(\Delta S)^2\rangle = C_P, \quad
+    \langle(\Delta P)^2\rangle = \frac{T}{V\kappa_S}
+\end{equation*}
+Относительные флуктуации $\sim 1/\sqrt{N}$ --- макроскопически малы.
+
+% ============================================================
+\section*{6. Фononы и теплоёмкость кристалла}
+
+Кристалл из $N$ атомов: $3N$ нормальных мод. В приближении Дебая ($\omega = ck$, отсечка при $\omega_D$):
+\begin{equation*}
+    g(\omega) = \frac{3V}{2\pi^2 c^3}\,\omega^2, \qquad
+    \omega_D = c(6\pi^2 n)^{1/3}
+\end{equation*}
+При $T \ll \Theta_D$ --- закон Дебая; при $T \gg \Theta_D$ --- закон Дюлонга--Пти:
+\begin{equation*}
+    C_V \propto T^3 \;\;(T \ll \Theta_D), \qquad C_V = 3N \;\;(T \gg \Theta_D)
+\end{equation*}
+Закон Дюлонга--Пти --- прямое следствие теоремы о равнораспределении для $3N$ осцилляторов.
+
+% ============================================================
+\section*{7. Вторичное квантование (бозоны)}
+
+\textbf{Операторы рождения и уничтожения:}
+\begin{equation*}
+    [\hat{a}_\mathbf{p},\,\hat{a}^\dagger_{\mathbf{p}'}] = \delta_{\mathbf{p}\mathbf{p}'}, \qquad
+    \hat{n}_\mathbf{p} = \hat{a}^\dagger_\mathbf{p}\hat{a}_\mathbf{p}
+\end{equation*}
+
+\textbf{Полевые операторы} и гамильтонианы:
+\begin{equation*}
+    \hat{\psi}(\mathbf{r}) = \sum_\mathbf{p}\varphi_\mathbf{p}(\mathbf{r})\hat{a}_\mathbf{p}, \qquad
+    [\hat{\psi}(\mathbf{r}),\hat{\psi}^\dagger(\mathbf{r}')] = \delta^3(\mathbf{r}-\mathbf{r}')
+\end{equation*}
+\begin{align*}
+    \hat{H}_0 &= \int\! d^3r\;\hat{\psi}^\dagger\!\left(-\tfrac{\hbar^2\nabla^2}{2m}\right)\hat{\psi} \\
+    \hat{V} &= \frac{1}{2V}\sum_{\mathbf{p},\mathbf{k},\mathbf{q}} v_\mathbf{q}\,\hat{a}^\dagger_{\mathbf{p}+\mathbf{q}}\hat{a}^\dagger_{\mathbf{k}-\mathbf{q}}\hat{a}_\mathbf{k}\hat{a}_\mathbf{p}
+\end{align*}
+Нормальное упорядочение $:\cdots:$ --- все $\hat{a}^\dagger$ налево без использования коммутаторов; автоматически исключает самодействие.
+
+% ============================================================
+\section*{8. Слабо неидеальный бозе-газ}
+
+\textbf{Замена Боголюбова} (конденсат --- когерентное состояние):
+\begin{equation*}
+    \hat{a}_0 \to \sqrt{N_0}, \quad \hat{a}^\dagger_0 \to \sqrt{N_0}
+\end{equation*}
+Волновая функция конденсата $\Psi_0 = \sqrt{n_0}$ --- параметр порядка. Её появление --- \emph{спонтанное нарушение $U(1)$-симметрии}.
+
+\textbf{Химический потенциал и термодинамика:}
+\begin{equation*}
+    \mu = v_0 n_0, \quad E_0 = -\frac{\mu N}{2}, \quad P = \frac{v_0 n_0^2}{2} > 0
+\end{equation*}
+\begin{equation*}
+    c_s = \sqrt{\frac{v_0 n_0}{m}} \quad \text{(скорость звука Боголюбова)}
+\end{equation*}
+Взаимодействие необходимо: при $v_0 = 0$ давление $P = 0$ и сверхтекучести нет.
+
+\textbf{Преобразование Боголюбова} (диагонализация):
+\begin{equation*}
+    \hat{a}_\mathbf{k} = u_k\hat{b}_\mathbf{k} - v_k\hat{b}^\dagger_{-\mathbf{k}}, \qquad u_k^2 - v_k^2 = 1
+\end{equation*}
+
+\textbf{Спектр Боголюбова:}
+\begin{equation*}
+    \boxed{E_k = \sqrt{\xi_k\,(\xi_k + 2\mu)},\qquad \xi_k = \frac{\hbar^2k^2}{2m}}
+\end{equation*}
+\begin{equation*}
+    E_k \approx \begin{cases} \hbar c_s k & k \ll \tfrac{mc_s}{\hbar} \quad\text{(фонон, линейный)} \\ \xi_k + \mu & k \gg \tfrac{mc_s}{\hbar} \quad\text{(частица, квадр.)} \end{cases}
+\end{equation*}
+
+% ============================================================
+\section*{9. Сверхтекучесть. Критерий Ландау}
+
+Тело со скоростью $v$ испускает возбуждение с импульсом $p$ только если $vp \geq E_p$ (из законов сохранения). Критическая скорость:
+\begin{equation*}
+    v_c = \min_p\frac{E_p}{p}
+\end{equation*}
+При $v < v_c$ трение \emph{невозможно} --- система сверхтекуча.
+
+\begin{center}
+{\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Газ & Спектр $E_p$ & $v_c$ \\
+\midrule
+Взаимодействующий & $c_s p$ (линейный) & $c_s > 0$ \\
+Идеальный & $p^2/2m$ (квадр.) & $0$ \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+Сверхтекучесть --- следствие взаимодействия, которое меняет спектр с квадратичного на линейный.
+
+% ============================================================
+\section*{10. Теория фазовых переходов}
+
+\textbf{Теория Ландау} (переход 2-го рода, параметр порядка $m$):
+\begin{equation*}
+    F = F_0 + a(T)\,m^2 + b\,m^4, \quad a(T) = a_0(T - T_c),\quad b > 0
+\end{equation*}
+\begin{equation*}
+    m_0^2 = \begin{cases} -a/2b \propto (T_c-T) & T < T_c \\ 0 & T > T_c \end{cases}
+\end{equation*}
+
+\textbf{Функционал Гинзбурга--Ландау} (учёт пространственных флуктуаций):
+\begin{equation*}
+    F[m(\mathbf{r})] = F_0 + \int d^3r\,\bigl[a\,m^2 + b\,m^4 + g\,(\nabla m)^2\bigr], \quad g > 0
+\end{equation*}
+Флуктуации $\delta m(\mathbf{r}) = m(\mathbf{r}) - m_0$ разлагаются в ряд Фурье, и квадратичный функционал распадается на независимые моды:
+\begin{equation*}
+    \delta F = \sum_\mathbf{k} (a' + gk^2)\,|m_\mathbf{k}|^2
+\end{equation*}
+Флуктуации гауссовы и независимы:
+\begin{equation*}
+    \langle|m_\mathbf{k}|^2\rangle = \frac{T}{2(a' + gk^2)}
+\end{equation*}
+При $T \to T_c$: $a' \to 0$, длинноволновые моды ($k \to 0$) расходятся.
+
+\textbf{Корреляционная функция и корреляционная длина:}
+\begin{equation*}
+    G(r) = \langle\delta m(\mathbf{0})\,\delta m(\mathbf{r})\rangle \propto \frac{e^{-r/\xi}}{r}
+\end{equation*}
+\begin{equation*}
+    \boxed{\xi = \sqrt{\frac{g}{a'}} \propto |T - T_c|^{-1/2} \xrightarrow{T \to T_c} \infty}
+\end{equation*}
+Прямо в критической точке ($\xi \to \infty$): $G(r) \propto 1/r$ --- степенной закон вместо экспоненциального спадания. Теория Ландау (среднего поля) не применима в критической точке.
+
+\end{multicols}
+
+\vspace{0.3em}
+\hrule
+\vspace{0.4em}
+
+{\small\textbf{Ключевые идеи курса.}
+Термодинамика задаёт рамки: законы сохранения и возрастания энтропии, условия устойчивости. Статистическая физика \emph{обосновывает} термодинамику: $S = \ln W$ и распределение Гиббса ($e^{-E/T}$) --- фундамент. Теорема о равнораспределении объясняет классические теплоёмкости, квантовые распределения (БЭ, ФД) --- их нарушение при низких $T$. Второе квантование --- компактный язык для многочастичных систем: нормальные моды, фononы, операторы $\hat{a}, \hat{a}^\dagger$. В бозе-газе взаимодействие качественно меняет физику: конденсат (спонтанное нарушение $U(1)$-симметрии), линейный спектр Боголюбова и сверхтекучесть. Вблизи фазового перехода второго рода корреляционная длина $\xi \to \infty$ --- любая теория среднего поля теряет применимость прямо в критической точке.}
+
+\end{document}

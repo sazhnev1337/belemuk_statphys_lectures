@@ -1,0 +1,252 @@
+\documentclass[../general/general]{subfiles}
+
+\begin{document}
+
+\chapter{Лекция №11}
+\noindent\textit{А.\,М.~Белемук \hfill 24 апреля 2021}
+\vspace{1em}
+
+
+% ===== СЕКЦИЯ 1: Оператор взаимодействия во вторичном квантовании =====
+\section{Оператор попарного взаимодействия во вторичном квантовании}
+
+\subsection{Нормальное упорядочение}
+
+На прошлой лекции мы записали оператор попарного взаимодействия через полевые операторы. Ключевой шаг --- нормальное упорядочение, которое автоматически исключает самодействие.
+
+Классическое попарное взаимодействие:
+\begin{equation}
+    V_{\text{кл}} = \frac{1}{2}\int d^3r\,d^3r'\,\rho(\mathbf{r})\,v(\mathbf{r}-\mathbf{r}')\,\rho(\mathbf{r}')
+\end{equation}
+
+При квантовании заменяем $\rho(\mathbf{r}) \to \hat{\psi}^\dagger(\mathbf{r})\hat{\psi}(\mathbf{r})$, но нужно избавиться от самодействия ($\mathbf{r} = \mathbf{r}'$). Для этого применяют операцию \textbf{нормального упорядочения} $:\cdots:$ --- все операторы рождения переставляются левее операторов уничтожения \emph{без использования коммутационных соотношений}:
+\begin{equation}
+    :A B C D: \quad \text{--- все $\hat{a}^\dagger$ налево, все $\hat{a}$ направо, без коммутаторов}
+\end{equation}
+
+Для бозонов: $:\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}(\mathbf{r})\hat{\psi}^\dagger(\mathbf{r}')\hat{\psi}(\mathbf{r}'): = \hat{\psi}^\dagger(\mathbf{r})\hat{\psi}^\dagger(\mathbf{r}')\hat{\psi}(\mathbf{r}')\hat{\psi}(\mathbf{r})$.
+
+\subsection{Оператор взаимодействия через полевые операторы}
+
+Применяя нормальное упорядочение, оператор попарного взаимодействия принимает вид:
+\begin{equation}
+    \hat{V} = \frac{1}{2}\int d^3r\,d^3r'\,\hat{\psi}^\dagger(\mathbf{r})\hat{\psi}^\dagger(\mathbf{r}')\,v(\mathbf{r}-\mathbf{r}')\,\hat{\psi}(\mathbf{r}')\hat{\psi}(\mathbf{r})
+    \label{eq:V_psi}
+\end{equation}
+
+Диаграммный смысл: в точке $\mathbf{r}$ рождается частица ($\hat{\psi}^\dagger(\mathbf{r})$), в точке $\mathbf{r}'$ рождается частица ($\hat{\psi}^\dagger(\mathbf{r}')$), затем в точке $\mathbf{r}'$ уничтожается частица ($\hat{\psi}(\mathbf{r}')$), в точке $\mathbf{r}$ --- тоже ($\hat{\psi}(\mathbf{r})$). Процесс описывается потенциалом рассеяния $v(\mathbf{r}-\mathbf{r}')$.
+
+\subsection{Переход к импульсному представлению}
+
+Подставляем $\hat{\psi}(\mathbf{r}) = \sum_\mathbf{p}\varphi_\mathbf{p}(\mathbf{r})\hat{a}_\mathbf{p}$ в~\eqref{eq:V_psi} и переходим к относительной координате $\mathbf{r}_{\text{rel}} = \mathbf{r} - \mathbf{r}'$ и центра масс $\mathbf{r}_{\text{cm}} = (\mathbf{r}+\mathbf{r}')/2$. Интеграл по $\mathbf{r}_{\text{cm}}$ даёт $\delta$-символ (закон сохранения импульса), интеграл по $\mathbf{r}_{\text{rel}}$ --- фурье-образ потенциала:
+\begin{equation}
+    v_\mathbf{q} = \int d^3r\,v(\mathbf{r})\,e^{-i\mathbf{q}\cdot\mathbf{r}/\hbar}
+\end{equation}
+
+В результате оператор взаимодействия в импульсном представлении:
+\begin{equation}
+    \boxed{\hat{V} = \frac{1}{2V}\sum_{\mathbf{p},\mathbf{k},\mathbf{q}} v_\mathbf{q}\,\hat{a}^\dagger_{\mathbf{p}+\mathbf{q}}\hat{a}^\dagger_{\mathbf{k}-\mathbf{q}}\hat{a}_\mathbf{k}\hat{a}_\mathbf{p}}
+    \label{eq:V_momentum}
+\end{equation}
+
+Физический смысл: две частицы с импульсами $\mathbf{p}$ и $\mathbf{k}$ взаимодействуют, обмениваясь импульсом $\mathbf{q}$, и рождаются с импульсами $\mathbf{p}+\mathbf{q}$ и $\mathbf{k}-\mathbf{q}$. Закон сохранения импульса выполняется автоматически.
+
+% ===== КОНЕЦ СЕКЦИИ 1 =====
+
+
+% ===== СЕКЦИЯ 2: Слабо неидеальный бозе-газ =====
+\section{Слабо неидеальный бозе-газ. Гамильтониан}
+
+\subsection{Физическая картина}
+
+Рассмотрим бозонный газ со слабым отталкивательным взаимодействием ($v_0 > 0$) при температурах, близких к нулю. В этом случае ожидается, что макроскопическое число частиц $N_0 \gg 1$ находится в состоянии с наименьшей одночастичной энергией, то есть с импульсом $\mathbf{p} = 0$:
+\begin{equation}
+    N_0 = \langle\hat{n}_{\mathbf{p}=0}\rangle \sim N, \qquad N_{\mathbf{p}\neq 0} = N - N_0 \ll N
+\end{equation}
+
+Эти частицы образуют \textbf{конденсат}. Взаимодействие непрерывно «выбивает» частицы из конденсата и возвращает их обратно.
+
+\subsection{Приближение слабого взаимодействия}
+
+При $T \approx 0$ частицы с большими импульсами ($\mathbf{q} \gg 0$) отсутствуют. Поэтому в операторе~\eqref{eq:V_momentum} существенны лишь процессы с малыми переданными импульсами $\mathbf{q}$. Аппроксимируем фурье-образ потенциала константой:
+\begin{equation}
+    v_\mathbf{q} \approx v_0 = v_{\mathbf{q}=0} = \int d^3r\,v(\mathbf{r}) > 0
+    \label{eq:v0_approx}
+\end{equation}
+
+Полный гамильтониан (в большом каноническом ансамбле, с отсчётом энергии от химического потенциала $\mu$):
+\begin{equation}
+    \hat{H} = \sum_\mathbf{k} \xi_\mathbf{k}\,\hat{a}^\dagger_\mathbf{k}\hat{a}_\mathbf{k} + \frac{v_0}{2V}\sum_{\mathbf{p},\mathbf{k},\mathbf{q}} \hat{a}^\dagger_{\mathbf{p}+\mathbf{q}}\hat{a}^\dagger_{\mathbf{k}-\mathbf{q}}\hat{a}_\mathbf{k}\hat{a}_\mathbf{p}
+    \label{eq:H_full_bose}
+\end{equation}
+
+где $\xi_\mathbf{k} = \varepsilon_\mathbf{k} - \mu = \hbar^2k^2/(2m) - \mu$ --- одночастичная энергия, отсчитанная от $\mu$.
+
+% ===== КОНЕЦ СЕКЦИИ 2 =====
+
+
+% ===== СЕКЦИЯ 3: Замена Боголюбова =====
+\section{Замена Боголюбова. Волновая функция конденсата}
+
+\subsection{Волновая функция основного состояния}
+
+В случае идеального газа (без взаимодействия) все $N_0$ частиц находятся точно в состоянии $\mathbf{p}=0$:
+\begin{equation}
+    |\Psi_0^{\text{ид}}\rangle = \frac{(\hat{a}^\dagger_0)^{N_0}}{\sqrt{N_0!}}\,|0\rangle
+\end{equation}
+
+При включении взаимодействия частицы постоянно выпрыгивают из конденсата и возвращаются обратно: истинное основное состояние содержит суперпозицию различных чисел частиц в $\mathbf{p}=0$. По своим свойствам оно близко к \textbf{когерентному состоянию}.
+
+\subsection{Когерентные состояния}
+
+Когерентное состояние оператора $\hat{a}_0$ (напомним из квантовой механики) определяется как собственное состояние оператора уничтожения:
+\begin{equation}
+    \hat{a}_0\,|z\rangle = z\,|z\rangle, \qquad |z\rangle = \mathcal{N}\,e^{z\hat{a}^\dagger_0}\,|0\rangle
+\end{equation}
+
+Это суперпозиция состояний с различными числами частиц в $\mathbf{p}=0$. Среднее число частиц в конденсате:
+\begin{equation}
+    \langle\hat{n}_0\rangle_{|z\rangle} = |z|^2 = N_0
+\end{equation}
+
+Относительные флуктуации числа частиц:
+\begin{equation}
+    \frac{\sqrt{\langle(\Delta n_0)^2\rangle}}{N_0} = \frac{1}{\sqrt{N_0}} \to 0 \quad \text{при} \quad N_0 \to \infty
+\end{equation}
+
+В макроскопическом пределе $N_0 \gg 1$ флуктуации пренебрежимо малы, и когерентное состояние с $z = \sqrt{N_0}\,e^{i\phi}$ хорошо описывает основное состояние бозе-газа.
+
+\subsection{Ключевая замена Боголюбова}
+
+Боголюбов (1947) предложил заменить операторы рождения/уничтожения конденсата на классические $c$-числа:
+\begin{equation}
+    \boxed{\hat{a}_0 \to \sqrt{N_0}, \qquad \hat{a}^\dagger_0 \to \sqrt{N_0}}
+    \label{eq:bogolubov_sub}
+\end{equation}
+
+Это обосновано тем, что когерентное состояние является собственной функцией $\hat{a}_0$, а в макроскопическом пределе оператор $\hat{a}_0$ ведёт себя как $c$-число. Для всех $\mathbf{k} \neq 0$ операторы $\hat{a}_\mathbf{k}$, $\hat{a}^\dagger_\mathbf{k}$ остаются квантовыми.
+
+\subsection{Волновая функция конденсата и спонтанное нарушение симметрии}
+
+Полевой оператор после замены~\eqref{eq:bogolubov_sub}:
+\begin{equation}
+    \hat{\psi}(\mathbf{r}) = \frac{\hat{a}_0}{\sqrt{V}} + \sum_{\mathbf{k}\neq 0}\varphi_\mathbf{k}(\mathbf{r})\hat{a}_\mathbf{k} \;\longrightarrow\; \underbrace{\sqrt{\frac{N_0}{V}}}_{\Psi_0} + \sum_{\mathbf{k}\neq 0}\varphi_\mathbf{k}(\mathbf{r})\hat{a}_\mathbf{k}
+\end{equation}
+
+Классическая часть $\Psi_0 = \sqrt{n_0}$ называется \textbf{волновой функцией конденсата} (параметр порядка). Выбор определённой фазы $\phi = 0$ --- это \textbf{спонтанное нарушение симметрии}: гамильтониан инвариантен относительно глобального поворота фазы $\hat{a}_\mathbf{k} \to e^{i\phi}\hat{a}_\mathbf{k}$, но основное состояние эту симметрию не имеет.
+
+Благодаря замене~\eqref{eq:bogolubov_sub} возникают \textbf{аномальные средние}:
+\begin{equation}
+    \langle\hat{a}_0\rangle = \sqrt{N_0} \neq 0, \qquad \langle\hat{a}^\dagger_0\hat{a}^\dagger_0\rangle = N_0 \neq 0
+\end{equation}
+
+Эти ненулевые средние (несвойственные обычному числа-сохраняющему состоянию) --- основа теории бозе-газа и сверхпроводимости.
+
+% ===== КОНЕЦ СЕКЦИИ 3 =====
+
+
+% ===== СЕКЦИЯ 4: Энергия основного состояния =====
+\section{Энергия основного состояния и термодинамика}
+
+\subsection{Нулевое приближение}
+
+В нулевом приближении пренебрегаем всеми над-конденсатными частицами ($\mathbf{k} \neq 0$), оставляя только процессы с $\mathbf{p} = \mathbf{k} = \mathbf{q} = 0$. После замены~\eqref{eq:bogolubov_sub} гамильтониан~\eqref{eq:H_full_bose} даёт:
+\begin{equation}
+    E_0 = -\mu N_0 + \frac{v_0}{2V}N_0^2
+    \label{eq:E0}
+\end{equation}
+
+\subsection{Условие минимума и связь $\mu$ с $N_0$}
+
+Равновесное значение $N_0$ определяется из условия минимума $E_0$ по $N_0$:
+\begin{equation}
+    \frac{\partial E_0}{\partial N_0} = 0 \quad \Rightarrow \quad \mu = \frac{v_0 N_0}{V} = v_0 n_0
+    \label{eq:mu_n0}
+\end{equation}
+
+где $n_0 = N_0/V$ --- концентрация конденсата. Подставляя~\eqref{eq:mu_n0} в~\eqref{eq:E0}:
+\begin{equation}
+    E_0 = -\frac{v_0 N_0^2}{2V} = -\frac{\mu N}{2}
+    \label{eq:E0_final}
+\end{equation}
+
+Устойчивость подтверждается: $\partial^2 E_0/\partial N_0^2 = v_0/V > 0$.
+
+\subsection{Давление и скорость звука}
+
+Давление слабо неидеального бозе-газа:
+\begin{equation}
+    P = -\frac{\partial E_0}{\partial V}\bigg|_{N,T} = \frac{v_0 n_0^2}{2} > 0
+    \label{eq:pressure}
+\end{equation}
+
+В отличие от идеального бозе-газа ниже $T_c$ (где $P \propto V^0$ нарушало устойчивость), здесь давление \emph{положительно} и зависит от объёма --- взаимодействие восстанавливает механическую устойчивость.
+
+Скорость звука:
+\begin{equation}
+    c_s^2 = \frac{\partial P}{\partial \rho}\bigg|_T, \quad \rho = mn_0
+    \quad \Rightarrow \quad \boxed{c_s = \sqrt{\frac{v_0 n_0}{m}}}
+    \label{eq:sound_vel}
+\end{equation}
+
+Это боголюбовская скорость звука --- скорость распространения длинноволновых возбуждений в бозе-конденсате.
+
+% ===== КОНЕЦ СЕКЦИИ 4 =====
+
+
+% ===== СЕКЦИЯ 5: Элементарные возбуждения =====
+\section{Элементарные возбуждения бозе-газа. Уравнения движения}
+
+\subsection{Постановка задачи}
+
+Полный гамильтониан~\eqref{eq:H_full_bose} не является суммой независимых осцилляторов. Цель --- привести его к диагональному виду:
+\begin{equation}
+    \hat{H} = E_0 + \sum_{\mathbf{k}\neq 0} E_\mathbf{k}\,\hat{b}^\dagger_\mathbf{k}\hat{b}_\mathbf{k}
+    \label{eq:H_diag_target}
+\end{equation}
+
+где $\hat{b}_\mathbf{k}$, $\hat{b}^\dagger_\mathbf{k}$ --- операторы боголюбовских квазичастиц (бозоны), а $E_\mathbf{k}$ --- их энергетический спектр.
+
+\subsection{Метод уравнений движения}
+
+Из~\eqref{eq:H_diag_target} следует, что в представлении Гейзенберга операторы квазичастиц должны иметь вид:
+\begin{equation}
+    \hat{b}_\mathbf{k}(t) = \hat{b}_\mathbf{k}\,e^{-iE_\mathbf{k}t/\hbar}, \qquad \hat{b}^\dagger_\mathbf{k}(t) = \hat{b}^\dagger_\mathbf{k}\,e^{+iE_\mathbf{k}t/\hbar}
+\end{equation}
+
+Это означает уравнения движения:
+\begin{equation}
+    i\hbar\dot{\hat{b}}_\mathbf{k} = E_\mathbf{k}\,\hat{b}_\mathbf{k}, \qquad i\hbar\dot{\hat{b}}^\dagger_\mathbf{k} = -E_\mathbf{k}\,\hat{b}^\dagger_\mathbf{k}
+    \label{eq:eom_b}
+\end{equation}
+
+Уравнение движения для оператора $\hat{a}_\mathbf{k}$ ($\mathbf{k}\neq 0$) в гейзенберговском представлении:
+\begin{equation}
+    i\hbar\dot{\hat{a}}_\mathbf{k} = [\hat{a}_\mathbf{k},\,\hat{H}] = [\hat{a}_\mathbf{k},\,\hat{H}_0] + [\hat{a}_\mathbf{k},\,\hat{V}]
+    \label{eq:eom_a}
+\end{equation}
+
+\subsection{Первый коммутатор: кинетическая энергия}
+
+Из $\hat{H}_0 = \sum_{\mathbf{k}'}\xi_{\mathbf{k}'}\hat{a}^\dagger_{\mathbf{k}'}\hat{a}_{\mathbf{k}'}$:
+\begin{equation}
+    [\hat{a}_\mathbf{k},\,\hat{H}_0] = \sum_{\mathbf{k}'}\xi_{\mathbf{k}'}\,[\hat{a}_\mathbf{k},\,\hat{a}^\dagger_{\mathbf{k}'}\hat{a}_{\mathbf{k}'}] = \xi_\mathbf{k}\,\hat{a}_\mathbf{k}
+\end{equation}
+
+\subsection{Второй коммутатор: взаимодействие (начало вычисления)}
+
+Из~\eqref{eq:V_momentum} нужно вычислить $[\hat{a}_\mathbf{k},\,\hat{V}]$. Оставляем только процессы, в которых участвуют конденсатные частицы ($\mathbf{p}$ или $\mathbf{k}$ равны нулю), и применяем замену~\eqref{eq:bogolubov_sub}: $\hat{a}_0, \hat{a}^\dagger_0 \to \sqrt{N_0}$.
+
+Коммутатор $[\hat{a}_\mathbf{k},\,\hat{a}^\dagger_\mathbf{p}\hat{a}^\dagger_\mathbf{q}\hat{a}_\mathbf{r}\hat{a}_\mathbf{s}]$ вычисляется по правилу:
+\begin{equation}
+    [\hat{a},\,BCDE] = [\hat{a},B]CDE + B[\hat{a},C]DE + BC[\hat{a},D]E + BCD[\hat{a},E]
+\end{equation}
+
+Учитывая, что $\hat{a}_\mathbf{k}$ коммутирует только с $\hat{a}^\dagger_\mathbf{k}$ и даёт $\delta_{\mathbf{k}\mathbf{k}'}$, из четырёх слагаемых выживают только содержащие $[\hat{a}_\mathbf{k}, \hat{a}^\dagger_{\cdots}]$.
+
+Вычисление $[\hat{a}_\mathbf{k},\,\hat{V}]$ с учётом замены Боголюбова будет завершено на следующей лекции, где мы получим спектр элементарных возбуждений $E_\mathbf{k}$ и операторы $\hat{b}_\mathbf{k}$ явно.
+
+% ===== КОНЕЦ СЕКЦИИ 5 =====
+
+
+\end{document}

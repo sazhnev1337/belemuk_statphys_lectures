@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  4 APR 2026 13:47
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  29 MAY 2026 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,12 +531,12 @@ Package hyperref Info: Link coloring OFF on input line 3.
 
 
 Глава 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -560,23 +560,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [7]
 
-[8]
-
-[9] (./2.aux)
+[8] (./2.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `2.out' has not changed.
-(rerunfilecheck)             Checksum: 3919F0B1A8156320C75EB730892F5E9D;3824.
+(rerunfilecheck)             Checksum: E0F287E114BF4905712A84BF7E8EB39D;3245.
  ) 
 Here is how much of TeX's memory you used:
  13509 strings out of 468442
  260510 string characters out of 5445571
- 734403 words of memory out of 5000000
+ 734812 words of memory out of 5000000
  41798 multiletter control sequences out of 15000+600000
  629044 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,6n,113p,936b,361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,6n,113p,936b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2.xdv (9 pages, 231900 bytes).
+Output written on 2.xdv (8 pages, 208012 bytes).

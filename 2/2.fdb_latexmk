@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1775299630.72471 "2.xdv" "2.pdf" "2" 1775299631.06511 0
-  "2.xdv" 1775299630.65804 231900 53ef3c5de444003087945daabd120c17 "xelatex"
+["xdvipdfmx"] 1780069005.93097 "2.xdv" "2.pdf" "2" 1780069006.27444 0
+  "2.xdv" 1780069005.86266 208012 b68a718fbb85006ad44026b5c66a190f "xelatex"
   (generated)
   "2.pdf"
   (rewritten before read)
-["xelatex"] 1775299629.87454 "2.tex" "2.xdv" "2" 1775299631.06401 0
-  "../general/general.tex" 1775299598.13304 502 d3c92d717928f34c3b757cecd24dc9ba ""
-  "../preamble.tex" 1775299594.05104 694 5adb0323df61d06bd37370280f246ffb ""
+["xelatex"] 1780069005.07546 "2.tex" "2.xdv" "2" 1780069006.27341 0
+  "../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
+  "../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -80,9 +80,9 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1755117454 5898300 db3e11b6e615ac88f840d776ba7792ae ""
   "/usr/local/texlive/2025/texmf.cnf" 1755117416.29276 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "2.aux" 1775299630.65772 4255 ef0498345dbb3f19241d3c0fa857d22b "xelatex"
-  "2.out" 1775299630.65804 3824 3919f0b1a8156320c75eb730892f5e9d "xelatex"
-  "2.tex" 1775299398.69003 46300 a3c2ea4e9618fe60f51542ba9462d8f6 ""
+  "2.aux" 1780069005.86166 4046 3dbedd281ea430e177e5b993975a8cb1 "xelatex"
+  "2.out" 1780069005.86266 3245 e0f287e114bf4905712a84bf7e8eb39d "xelatex"
+  "2.tex" 1780068997.50466 41648 3d8a10f2e9bad0ea1a3a2897658e886a ""
   (generated)
   "2.aux"
   "2.log"

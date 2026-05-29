@@ -38,288 +38,287 @@
 \contentsline {subsection}{Объем многомерного шара}{11}{section*.37}%
 \contentsline {subsection}{Итоговое выражение для энтропии}{11}{section*.38}%
 \contentsline {chapter}{\numberline {2}Лекция №2: Термодинамические следствия микроканонического ансамбля и вывод канонического распределения Гиббса}{12}{chapter.2}%
-\contentsline {section}{Микроканонический ансамбль для идеального газа: завершение расчета}{12}{section*.39}%
-\contentsline {section}{Связь микроканонического распределения с термодинамикой}{13}{section*.40}%
-\contentsline {subsection}{Определение абсолютной температуры и внутренняя энергия}{13}{section*.41}%
-\contentsline {subsection}{Давление и уравнение состояния}{14}{section*.42}%
-\contentsline {subsection}{Химический потенциал}{14}{section*.43}%
-\contentsline {section}{Квантовый объем и границы применимости классического описания}{14}{section*.44}%
-\contentsline {subsection}{Тепловая длина волны де Бройля}{15}{section*.45}%
-\contentsline {subsection}{Условие классичности и знак химического потенциала}{15}{section*.46}%
-\contentsline {subsection}{Температура вырождения}{15}{section*.47}%
-\contentsline {section}{Каноническое распределение (распределение Гиббса)}{16}{section*.48}%
-\contentsline {subsection}{Постановка задачи: тело в среде}{16}{section*.49}%
-\contentsline {subsection}{Hamilton-функция и условие слабого взаимодействия}{16}{section*.50}%
-\contentsline {subsection}{Вывод функции распределения подсистемы}{16}{section*.51}%
-\contentsline {subsection}{Разложение по малости энергии подсистемы}{17}{section*.52}%
-\contentsline {section}{Статистическая сумма и связь со свободной энергией}{17}{section*.53}%
-\contentsline {subsection}{Энтропия Гиббса}{18}{section*.54}%
-\contentsline {subsection}{Свободная энергия Гельмгольца}{18}{section*.55}%
-\contentsline {subsection}{Связь распределения со свободной энергией}{18}{section*.56}%
-\contentsline {section}{Пример: Классический идеальный газ Больцмана}{19}{section*.57}%
-\contentsline {subsection}{Вычисление статистической суммы}{19}{section*.58}%
-\contentsline {subsection}{Тепловая длина волны и окончательный вид статсуммы}{19}{section*.59}%
-\contentsline {subsection}{Сравнение микроканонического и канонического подходов}{20}{section*.60}%
-\contentsline {chapter}{\numberline {3}Лекция №3}{21}{chapter.3}%
-\contentsline {section}{Термодинамические следствия канонического ансамбля для идеального газа}{21}{section*.61}%
-\contentsline {subsection}{Напоминание: статсумма и свободная энергия идеального газа}{21}{section*.62}%
-\contentsline {subsection}{Вычисление давления. Уравнение состояния идеального газа}{22}{section*.63}%
-\contentsline {subsection}{Вычисление энтропии. Формула Саккура-Тетроде}{22}{section*.64}%
-\contentsline {subsection}{Химический потенциал классического идеального газа}{23}{section*.65}%
-\contentsline {subsection}{Внутренняя энергия и связь со статсуммой}{23}{section*.66}%
-\contentsline {section}{Аппарат квантовой статистической механики: чистые состояния}{24}{section*.67}%
-\contentsline {subsection}{Переход от классического фазового пространства к квантовому описанию}{24}{section*.68}%
-\contentsline {subsection}{Чистое состояние и чистый ансамбль}{24}{section*.69}%
-\contentsline {subsection}{Проекционный оператор чистого состояния}{25}{section*.70}%
-\contentsline {subsection}{Свойства проекционного оператора}{25}{section*.71}%
-\contentsline {subsection}{Вычисление квантовомеханического среднего через шпур (след)}{26}{section*.72}%
-\contentsline {section}{Смешанные ансамбли и равновесная матрица плотности}{27}{section*.73}%
-\contentsline {subsection}{Физические причины возникновения смешанных состояний}{27}{section*.74}%
-\contentsline {subsection}{Смешанный ансамбль и двойное усреднение}{27}{section*.75}%
-\contentsline {subsection}{Определение статистического оператора (матрицы плотности)}{28}{section*.76}%
-\contentsline {subsection}{Свойства матрицы плотности}{28}{section*.77}%
-\contentsline {subsection}{Квантовое каноническое распределение}{29}{section*.78}%
-\contentsline {chapter}{\numberline {4}Лекция №4}{30}{chapter.4}%
-\contentsline {section}{Напоминание: Статистический оператор канонического ансамбля}{30}{section*.79}%
-\contentsline {subsection}{Вид статистического оператора и статистическая сумма}{30}{section*.80}%
-\contentsline {section}{Флуктуации энергии в каноническом ансамбле}{30}{section*.81}%
-\contentsline {subsection}{Распределение системы по состояниям с разной энергией}{31}{section*.82}%
-\contentsline {subsection}{Введение меры флуктуаций (среднеквадратичное отклонение)}{31}{section*.83}%
-\contentsline {subsection}{Вычисление среднего квадрата энергии}{31}{section*.84}%
-\contentsline {subsection}{Применение оператора производной по температуре}{31}{section*.85}%
-\contentsline {subsection}{Связь дисперсии энергии с макроскопической теплоемкостью}{32}{section*.86}%
-\contentsline {subsection}{Относительная флуктуация энергии в термодинамическом пределе}{33}{section*.87}%
-\contentsline {subsection}{Функция распределения по энергиям и эквивалентность ансамблей}{33}{section*.88}%
-\contentsline {section}{Большое каноническое распределение Гиббса}{34}{section*.89}%
-\contentsline {subsection}{Физическая постановка задачи: открытая система в термостате}{34}{section*.90}%
-\contentsline {subsection}{Состояние полной замкнутой системы (тело + среда)}{34}{section*.91}%
-\contentsline {subsection}{Разложение энтропии среды по малому изменению энергии и числа частиц}{35}{section*.92}%
-\contentsline {subsection}{Вероятность обнаружить систему в заданном микросостоянии}{35}{section*.93}%
-\contentsline {subsection}{Введение большой статистической суммы}{36}{section*.94}%
-\contentsline {subsection}{Статистический оператор Большого канонического ансамбля}{36}{section*.95}%
-\contentsline {section}{Термодинамические следствия Большого канонического ансамбля}{37}{section*.96}%
-\contentsline {subsection}{Вычисление среднего числа частиц системы}{37}{section*.97}%
-\contentsline {subsection}{Связь большой статсуммы с термодинамикой: Большой потенциал}{37}{section*.98}%
-\contentsline {subsection}{Дифференциал большого термодинамического потенциала}{38}{section*.99}%
-\contentsline {subsection}{Вывод уравнения состояния (Омега-потенциал и давление)}{39}{section*.100}%
-\contentsline {subsection}{Связь химического потенциала и удельного термодинамического потенциала}{39}{section*.101}%
-\contentsline {chapter}{\numberline {5}Лекция №5}{41}{chapter.5}%
-\contentsline {section}{Термодинамические следствия Большого канонического ансамбля}{41}{section*.102}%
-\contentsline {subsection}{Уравнение Гиббса-Дюгема из $\Omega $-потенциала}{41}{section*.103}%
-\contentsline {subsection}{Плотности термодинамических величин}{41}{section*.104}%
-\contentsline {subsection}{Соотношения для термодинамического потенциала Гиббса ($\Phi $)}{42}{section*.105}%
-\contentsline {section}{Флуктуации числа частиц в открытой системе}{42}{section*.106}%
-\contentsline {subsection}{Определение дисперсии числа частиц}{43}{section*.107}%
-\contentsline {subsection}{Связь флуктуации со статистической суммой}{43}{section*.108}%
-\contentsline {subsection}{Итоговое выражение для дисперсии}{43}{section*.109}%
-\contentsline {subsection}{Относительная флуктуация и эквивалентность ансамблей}{43}{section*.110}%
-\contentsline {section}{Идеальный квантовый газ: модель и Большой канонический ансамбль}{44}{section*.111}%
-\contentsline {subsection}{Модель невзаимодействующих частиц}{44}{section*.112}%
-\contentsline {subsection}{Микросостояния через числа заполнения}{44}{section*.113}%
-\contentsline {subsection}{Большая статистическая сумма идеального газа}{45}{section*.114}%
-\contentsline {section}{Статистика Ферми-Дирака}{45}{section*.115}%
-\contentsline {subsection}{Принцип Паули для фермионов}{45}{section*.116}%
-\contentsline {subsection}{Вычисление статсуммы для фермионов}{45}{section*.117}%
-\contentsline {subsection}{Средние числа заполнения: Распределение Ферми-Дирака}{46}{section*.118}%
-\contentsline {section}{Переход от суммирования к интегрированию}{46}{section*.119}%
-\contentsline {subsection}{Интегрирование по импульсному пространству}{46}{section*.120}%
-\contentsline {subsection}{Плотность одночастичных состояний $\nu (\epsilon )$}{47}{section*.121}%
-\contentsline {subsection}{Интегральные выражения для $\langle N \rangle $ и $\langle E \rangle $}{48}{section*.122}%
-\contentsline {section}{Классический и квантовый пределы ферми-газа}{48}{section*.123}%
-\contentsline {subsection}{Классический предел: переход к распределению Больцмана}{48}{section*.124}%
-\contentsline {subsection}{Вычисление $\langle N \rangle $ в классическом пределе}{48}{section*.125}%
-\contentsline {subsection}{Химический потенциал классического газа}{49}{section*.126}%
-\contentsline {subsection}{Температура вырождения}{49}{section*.127}%
-\contentsline {subsection}{Ультраквантовый предел ($T = 0$): энергия Ферми}{49}{section*.128}%
-\contentsline {subsection}{Число частиц и импульс Ферми при $T = 0$}{50}{section*.129}%
-\contentsline {subsection}{Энергия Ферми и её связь с температурой вырождения}{50}{section*.130}%
-\contentsline {section}{Критерий применимости модели идеального ферми-газа}{50}{section*.131}%
-\contentsline {subsection}{Когда можно пренебречь кулоновским взаимодействием?}{50}{section*.132}%
-\contentsline {subsection}{Парадоксальный результат: плотный газ — идеальный газ}{51}{section*.133}%
-\contentsline {chapter}{\numberline {6}Лекция №6}{52}{chapter.6}%
-\contentsline {section}{Приближённое вычисление интегралов с функцией Ферми-Дирака}{52}{section*.134}%
-\contentsline {subsection}{Постановка задачи}{52}{section*.135}%
-\contentsline {subsection}{Вывод разложения Зоммерфельда}{52}{section*.136}%
-\contentsline {subsection}{Форма разложения в исходных переменных}{53}{section*.137}%
-\contentsline {section}{Химический потенциал ферми-газа при низких температурах}{53}{section*.138}%
-\contentsline {subsection}{Уравнение для числа частиц}{53}{section*.139}%
-\contentsline {subsection}{Применение разложения Зоммерфельда}{53}{section*.140}%
-\contentsline {subsection}{Нахождение $\mu (T)$}{54}{section*.141}%
-\contentsline {subsection}{График зависимости $\mu (T)$}{54}{section*.142}%
-\contentsline {section}{Энергия и теплоёмкость идеального ферми-газа}{55}{section*.143}%
-\contentsline {subsection}{Энергия при $T = 0$}{55}{section*.144}%
-\contentsline {subsection}{Высокотемпературный предел}{55}{section*.145}%
-\contentsline {subsection}{Низкотемпературный случай: применение разложения Зоммерфельда}{55}{section*.146}%
-\contentsline {subsection}{Теплоёмкость ферми-газа}{55}{section*.147}%
-\contentsline {subsection}{Физическая интерпретация линейной теплоёмкости}{56}{section*.148}%
-\contentsline {section}{Уравнение состояния идеального ферми-газа}{56}{section*.149}%
-\contentsline {subsection}{Связь $\Omega $-потенциала с энергией}{56}{section*.150}%
-\contentsline {subsection}{Уравнение состояния: $PV = \frac {2}{3}E$}{57}{section*.151}%
-\contentsline {subsection}{Уравнение состояния при высоких температурах}{57}{section*.152}%
-\contentsline {subsection}{Уравнение состояния при низких температурах}{57}{section*.153}%
-\contentsline {section}{Большой канонический ансамбль для идеального бозе-газа}{57}{section*.154}%
-\contentsline {subsection}{Вычисление статистической суммы: метод одного уровня}{58}{section*.155}%
-\contentsline {subsection}{Полная статистическая сумма}{59}{section*.156}%
-\contentsline {subsection}{Распределение Бозе-Эйнштейна}{59}{section*.157}%
-\contentsline {subsection}{Уравнение на среднее число частиц и бозе-интегралы}{59}{section*.158}%
-\contentsline {chapter}{\numberline {7}Лекция №7}{60}{chapter.7}%
-\contentsline {section}{Свойства бозе-интегралов}{60}{section*.159}%
-\contentsline {subsection}{Определение бозе-интегралов}{60}{section*.160}%
-\contentsline {subsection}{Свойство 1: монотонное убывание}{60}{section*.161}%
-\contentsline {subsection}{Свойство 2: значения при $y = 0$}{60}{section*.162}%
-\contentsline {subsection}{Свойство 3: классический предел}{61}{section*.163}%
-\contentsline {subsection}{Свойство 4: поведение производных при $y \to 0$}{61}{section*.164}%
-\contentsline {subsection}{Удобная форма уравнения на число частиц}{61}{section*.165}%
-\contentsline {section}{Бозе-Эйнштейновская конденсация}{61}{section*.166}%
-\contentsline {subsection}{Когда уравнение перестаёт иметь решение}{61}{section*.167}%
-\contentsline {subsection}{Критическая температура}{62}{section*.168}%
-\contentsline {subsection}{Оценка для гелия-4}{62}{section*.169}%
-\contentsline {subsection}{Картина конденсации: при $T < T_c$}{62}{section*.170}%
-\contentsline {subsection}{Исторические замечания}{63}{section*.171}%
-\contentsline {section}{Энергия идеального бозе-газа}{63}{section*.172}%
-\contentsline {subsection}{Общая формула}{63}{section*.173}%
-\contentsline {subsection}{Высокотемпературный предел ($T \gg T_c$, $y \gg 1$)}{63}{section*.174}%
-\contentsline {subsection}{Низкотемпературный режим ($T < T_c$, $y = 0$)}{63}{section*.175}%
-\contentsline {section}{Теплоёмкость идеального бозе-газа}{64}{section*.176}%
-\contentsline {subsection}{Теплоёмкость при $T < T_c$}{64}{section*.177}%
-\contentsline {subsection}{Значение теплоёмкости в точке $T_c$}{64}{section*.178}%
-\contentsline {subsection}{Поведение теплоёмкости при $T > T_c$}{64}{section*.179}%
-\contentsline {section}{Уравнение состояния и изотермы идеального бозе-газа}{64}{section*.180}%
-\contentsline {subsection}{Связь давления с энергией}{64}{section*.181}%
-\contentsline {subsection}{Уравнение состояния при $T > T_c$}{64}{section*.182}%
-\contentsline {subsection}{Уравнение состояния при $T < T_c$}{64}{section*.183}%
-\contentsline {subsection}{Нарушение условия механической устойчивости}{65}{section*.184}%
-\contentsline {subsection}{Изотермы бозе-газа на диаграмме $P$--$V$}{65}{section*.185}%
-\contentsline {section}{Термодинамические потенциалы для открытой системы}{65}{section*.186}%
-\contentsline {subsection}{Первый закон для открытой системы}{65}{section*.187}%
-\contentsline {subsection}{Термодинамические потенциалы: идея Лежандрова преобразования}{66}{section*.188}%
-\contentsline {subsection}{Свободная энергия Гельмгольца}{66}{section*.189}%
-\contentsline {subsection}{Энтальпия}{66}{section*.190}%
-\contentsline {subsection}{Потенциал Гиббса}{66}{section*.191}%
-\contentsline {subsection}{Теорема Эйлера: потенциал Гиббса и химический потенциал}{66}{section*.192}%
-\contentsline {subsection}{Теорема малых добавок: химический потенциал как частная производная}{67}{section*.193}%
-\contentsline {section}{Условия минимальности термодинамических потенциалов}{67}{section*.194}%
-\contentsline {subsection}{Второй закон термодинамики}{67}{section*.195}%
-\contentsline {subsection}{Состояние частичного равновесия}{67}{section*.196}%
-\contentsline {subsection}{Максимизация энтропии в изолированной системе}{67}{section*.197}%
-\contentsline {subsection}{Что минимизируется при других условиях}{67}{section*.198}%
-\contentsline {chapter}{\numberline {8}Лекция №8}{68}{chapter.8}%
-\contentsline {section}{Переход из неравновесного состояния в равновесное в изолированной системе}{68}{section*.199}%
-\contentsline {subsection}{Постановка задачи}{68}{section*.200}%
-\contentsline {subsection}{Поведение энтропии}{68}{section*.201}%
-\contentsline {subsection}{Вероятность флуктуации в изолированной системе}{68}{section*.202}%
-\contentsline {section}{Тело в среде. Обобщение на открытые системы}{69}{section*.203}%
-\contentsline {subsection}{Постановка задачи}{69}{section*.204}%
-\contentsline {subsection}{Изменение энтропии среды}{69}{section*.205}%
-\contentsline {subsection}{Основное неравенство для тела в среде}{69}{section*.206}%
-\contentsline {subsection}{Следствие а: минимизация свободной энергии при фиксированных $T$, $V$}{69}{section*.207}%
-\contentsline {subsection}{Следствие б: минимизация потенциала Гиббса при фиксированных $T$, $P$}{70}{section*.208}%
-\contentsline {section}{Термодинамические неравенства. Условия устойчивости}{70}{section*.209}%
-\contentsline {subsection}{Разложение по малым отклонениям}{70}{section*.210}%
-\contentsline {subsection}{Необходимые и достаточные условия положительной определённости}{70}{section*.211}%
-\contentsline {subsection}{Первое термодинамическое неравенство: $C_V > 0$}{70}{section*.212}%
-\contentsline {subsection}{Из $a_{22} > 0$: адиабатическая сжимаемость}{71}{section*.213}%
-\contentsline {subsection}{Из условия на детерминант: изотермическая сжимаемость и соотношение $C_P \geq C_V$}{71}{section*.214}%
-\contentsline {section}{Флуктуации тела в среде}{71}{section*.215}%
-\contentsline {subsection}{Вероятность флуктуации тела в среде}{71}{section*.216}%
-\contentsline {subsection}{Частные случаи}{72}{section*.217}%
-\contentsline {subsection}{Квазиравновесные флуктуации}{72}{section*.218}%
-\contentsline {chapter}{\numberline {9}Лекция №9}{73}{chapter.9}%
-\contentsline {section}{Квазиравновесные флуктуации тела в среде: рабочие формулы}{73}{section*.219}%
-\contentsline {subsection}{Напоминание: вероятность флуктуации}{73}{section*.220}%
-\contentsline {subsection}{Переход к рабочей формуле}{73}{section*.221}%
-\contentsline {subsection}{Средние квадратичные флуктуации}{73}{section*.222}%
-\contentsline {subsection}{Флуктуации интенсивных и экстенсивных переменных}{74}{section*.223}%
-\contentsline {section}{Конденсированные тела. Фононы и модель Дебая}{74}{section*.224}%
-\contentsline {subsection}{Квантовый гармонический осциллятор}{74}{section*.225}%
-\contentsline {section}{Гамильтониан кристаллической решётки. Нормальные координаты}{75}{section*.226}%
-\contentsline {subsection}{Равновесные положения и смещения}{75}{section*.227}%
-\contentsline {subsection}{Гамильтониан в гармоническом приближении}{75}{section*.228}%
-\contentsline {subsection}{Нормальные координаты и моды колебаний}{75}{section*.229}%
-\contentsline {section}{Первая зона Бриллюэна. Число фононных мод}{75}{section*.230}%
-\contentsline {subsection}{Дискретность узлов и эквивалентность волновых векторов}{75}{section*.231}%
-\contentsline {subsection}{Число мод}{76}{section*.232}%
-\contentsline {section}{Приближение Дебая}{76}{section*.233}%
-\contentsline {subsection}{Дисперсия фононов}{76}{section*.234}%
-\contentsline {subsection}{Плотность фононных мод}{76}{section*.235}%
-\contentsline {subsection}{Частота Дебая}{76}{section*.236}%
-\contentsline {subsection}{Температура Дебая}{76}{section*.237}%
-\contentsline {section}{Энергия и теплоёмкость кристаллической решётки}{77}{section*.238}%
-\contentsline {subsection}{Средняя энергия}{77}{section*.239}%
-\contentsline {subsection}{Низкотемпературный предел ($T \ll T_D$)}{77}{section*.240}%
-\contentsline {subsection}{Высокотемпературный предел ($T \gg T_D$)}{77}{section*.241}%
-\contentsline {subsection}{Зависимость теплоёмкости от температуры}{77}{section*.242}%
-\contentsline {chapter}{\numberline {10}Лекция №10}{78}{chapter.10}%
-\contentsline {section}{Вторичное квантование для бозонов}{78}{section*.243}%
-\contentsline {subsection}{Одночастичные состояния}{78}{section*.244}%
-\contentsline {subsection}{Операторы рождения и уничтожения}{78}{section*.245}%
-\contentsline {subsection}{Вакуумное состояние и построение базисных векторов}{78}{section*.246}%
-\contentsline {section}{Пространство Фока}{79}{section*.247}%
-\contentsline {subsection}{Структура пространства}{79}{section*.248}%
-\contentsline {subsection}{Базис пространства Фока}{79}{section*.249}%
-\contentsline {section}{Операторы в пространстве Фока. Одночастичные операторы}{79}{section*.250}%
-\contentsline {subsection}{Гамильтониан без взаимодействия}{79}{section*.251}%
-\contentsline {subsection}{Гамильтониан в собственном базисе}{79}{section*.252}%
-\contentsline {subsection}{Пример: оператор полного импульса}{80}{section*.253}%
-\contentsline {section}{Полевые операторы $\hat {\psi }(\mathbf {r})$ и $\hat {\psi }^\dagger (\mathbf {r})$}{80}{section*.254}%
-\contentsline {subsection}{Определение и смысл}{80}{section*.255}%
-\contentsline {subsection}{Коммутационные соотношения полевых операторов}{80}{section*.256}%
-\contentsline {subsection}{Оператор плотности числа частиц}{80}{section*.257}%
-\contentsline {section}{Гамильтониан через полевые операторы}{81}{section*.258}%
-\contentsline {subsection}{Однoчастичный гамильтониан}{81}{section*.259}%
-\contentsline {subsection}{Двухчастичный оператор взаимодействия}{81}{section*.260}%
-\contentsline {chapter}{\numberline {11}Лекция №11}{82}{chapter.11}%
-\contentsline {section}{Оператор попарного взаимодействия во вторичном квантовании}{82}{section*.261}%
-\contentsline {subsection}{Нормальное упорядочение}{82}{section*.262}%
-\contentsline {subsection}{Оператор взаимодействия через полевые операторы}{82}{section*.263}%
-\contentsline {subsection}{Переход к импульсному представлению}{82}{section*.264}%
-\contentsline {section}{Слабо неидеальный бозе-газ. Гамильтониан}{83}{section*.265}%
-\contentsline {subsection}{Физическая картина}{83}{section*.266}%
-\contentsline {subsection}{Приближение слабого взаимодействия}{83}{section*.267}%
-\contentsline {section}{Замена Боголюбова. Волновая функция конденсата}{83}{section*.268}%
-\contentsline {subsection}{Волновая функция основного состояния}{83}{section*.269}%
-\contentsline {subsection}{Когерентные состояния}{83}{section*.270}%
-\contentsline {subsection}{Ключевая замена Боголюбова}{83}{section*.271}%
-\contentsline {subsection}{Волновая функция конденсата и спонтанное нарушение симметрии}{84}{section*.272}%
-\contentsline {section}{Энергия основного состояния и термодинамика}{84}{section*.273}%
-\contentsline {subsection}{Нулевое приближение}{84}{section*.274}%
-\contentsline {subsection}{Условие минимума и связь $\mu $ с $N_0$}{84}{section*.275}%
-\contentsline {subsection}{Давление и скорость звука}{84}{section*.276}%
-\contentsline {section}{Элементарные возбуждения бозе-газа. Уравнения движения}{84}{section*.277}%
-\contentsline {subsection}{Постановка задачи}{84}{section*.278}%
-\contentsline {subsection}{Метод уравнений движения}{85}{section*.279}%
-\contentsline {subsection}{Первый коммутатор: кинетическая энергия}{85}{section*.280}%
-\contentsline {subsection}{Второй коммутатор: взаимодействие (начало вычисления)}{85}{section*.281}%
-\contentsline {chapter}{\numberline {12}Лекция №12}{86}{chapter.12}%
-\contentsline {section}{Завершение вычисления $[\hat {a}_\mathbf {k},\,\hat {V}]$}{86}{section*.282}%
-\contentsline {subsection}{Приближение конденсата}{86}{section*.283}%
-\contentsline {subsection}{Уравнение движения}{87}{section*.284}%
-\contentsline {section}{Преобразование Боголюбова. Диагонализация гамильтониана}{87}{section*.285}%
-\contentsline {subsection}{Операторы квазичастиц}{87}{section*.286}%
-\contentsline {subsection}{Условие бозонности}{87}{section*.287}%
-\contentsline {subsection}{Нахождение спектра}{88}{section*.288}%
-\contentsline {section}{Спектр Боголюбова. Квазичастицы}{88}{section*.289}%
-\contentsline {subsection}{Два предельных режима}{88}{section*.290}%
-\contentsline {paragraph}{Длинноволновый режим, ${\mathchar "AF\mkern -9muh}k \ll mc_s$.}{88}{section*.291}%
-\contentsline {paragraph}{Коротковолновый режим, ${\mathchar "AF\mkern -9muh}k \gg mc_s$.}{88}{section*.292}%
-\contentsline {subsection}{Физический смысл квазичастиц}{89}{section*.293}%
-\contentsline {section}{Критерий сверхтекучести Ландау}{89}{section*.294}%
-\contentsline {subsection}{Постановка задачи}{89}{section*.295}%
-\contentsline {subsection}{Законы сохранения}{89}{section*.296}%
-\contentsline {subsection}{Критическая скорость}{89}{section*.297}%
-\contentsline {subsection}{Линейный спектр и сверхтекучесть}{90}{section*.298}%
-\contentsline {section}{Флуктуации параметра порядка. Функционал Гинзбурга--Ландау}{90}{section*.299}%
-\contentsline {subsection}{Неоднородный параметр порядка}{90}{section*.300}%
-\contentsline {subsection}{Функционал Гинзбурга--Ландау}{90}{section*.301}%
-\contentsline {subsection}{Разложение вблизи равновесия}{90}{section*.302}%
-\contentsline {section}{Флуктуации фурье-компонент}{91}{section*.303}%
-\contentsline {subsection}{Фурье-разложение}{91}{section*.304}%
-\contentsline {subsection}{Гауссовы флуктуации}{91}{section*.305}%
-\contentsline {subsection}{Доминирующие флуктуации и расходимость}{91}{section*.306}%
-\contentsline {section}{Корреляционная функция и корреляционная длина}{91}{section*.307}%
-\contentsline {subsection}{Определение корреляционной функции}{91}{section*.308}%
-\contentsline {subsection}{Вычисление}{92}{section*.309}%
-\contentsline {subsection}{Свойства корреляционной функции}{92}{section*.310}%
-\contentsline {paragraph}{1. Расходимость корреляционной длины.}{92}{section*.311}%
-\contentsline {paragraph}{2. Степенной закон прямо при $T = T_c$.}{92}{section*.312}%
-\contentsline {paragraph}{3. Область применимости.}{92}{section*.313}%
+\contentsline {section}{Связь микроканонического распределения с термодинамикой}{12}{section*.39}%
+\contentsline {subsection}{Определение абсолютной температуры и внутренняя энергия}{12}{section*.40}%
+\contentsline {subsection}{Давление и уравнение состояния}{13}{section*.41}%
+\contentsline {subsection}{Химический потенциал}{13}{section*.42}%
+\contentsline {section}{Квантовый объем и границы применимости классического описания}{13}{section*.43}%
+\contentsline {subsection}{Тепловая длина волны де Бройля}{14}{section*.44}%
+\contentsline {subsection}{Условие классичности и знак химического потенциала}{14}{section*.45}%
+\contentsline {subsection}{Температура вырождения}{14}{section*.46}%
+\contentsline {section}{Каноническое распределение (распределение Гиббса)}{15}{section*.47}%
+\contentsline {subsection}{Постановка задачи: тело в среде}{15}{section*.48}%
+\contentsline {subsection}{Hamilton-функция и условие слабого взаимодействия}{15}{section*.49}%
+\contentsline {subsection}{Вывод функции распределения подсистемы}{15}{section*.50}%
+\contentsline {subsection}{Разложение по малости энергии подсистемы}{16}{section*.51}%
+\contentsline {section}{Статистическая сумма и связь со свободной энергией}{17}{section*.52}%
+\contentsline {subsection}{Энтропия Гиббса}{17}{section*.53}%
+\contentsline {subsection}{Свободная энергия Гельмгольца}{17}{section*.54}%
+\contentsline {subsection}{Связь распределения со свободной энергией}{18}{section*.55}%
+\contentsline {section}{Пример: Классический идеальный газ Больцмана}{18}{section*.56}%
+\contentsline {subsection}{Вычисление статистической суммы}{18}{section*.57}%
+\contentsline {subsection}{Тепловая длина волны и окончательный вид статсуммы}{19}{section*.58}%
+\contentsline {subsection}{Сравнение микроканонического и канонического подходов}{19}{section*.59}%
+\contentsline {chapter}{\numberline {3}Лекция №3}{20}{chapter.3}%
+\contentsline {section}{Термодинамические следствия канонического ансамбля для идеального газа}{20}{section*.60}%
+\contentsline {subsection}{Напоминание: статсумма и свободная энергия идеального газа}{20}{section*.61}%
+\contentsline {subsection}{Вычисление давления. Уравнение состояния идеального газа}{21}{section*.62}%
+\contentsline {subsection}{Вычисление энтропии. Формула Саккура-Тетроде}{21}{section*.63}%
+\contentsline {subsection}{Химический потенциал классического идеального газа}{22}{section*.64}%
+\contentsline {subsection}{Внутренняя энергия и связь со статсуммой}{22}{section*.65}%
+\contentsline {section}{Аппарат квантовой статистической механики: чистые состояния}{23}{section*.66}%
+\contentsline {subsection}{Переход от классического фазового пространства к квантовому описанию}{23}{section*.67}%
+\contentsline {subsection}{Чистое состояние и чистый ансамбль}{23}{section*.68}%
+\contentsline {subsection}{Проекционный оператор чистого состояния}{24}{section*.69}%
+\contentsline {subsection}{Свойства проекционного оператора}{24}{section*.70}%
+\contentsline {subsection}{Вычисление квантовомеханического среднего через шпур (след)}{25}{section*.71}%
+\contentsline {section}{Смешанные ансамбли и равновесная матрица плотности}{26}{section*.72}%
+\contentsline {subsection}{Физические причины возникновения смешанных состояний}{26}{section*.73}%
+\contentsline {subsection}{Смешанный ансамбль и двойное усреднение}{26}{section*.74}%
+\contentsline {subsection}{Определение статистического оператора (матрицы плотности)}{27}{section*.75}%
+\contentsline {subsection}{Свойства матрицы плотности}{27}{section*.76}%
+\contentsline {subsection}{Квантовое каноническое распределение}{28}{section*.77}%
+\contentsline {chapter}{\numberline {4}Лекция №4}{29}{chapter.4}%
+\contentsline {section}{Напоминание: Статистический оператор канонического ансамбля}{29}{section*.78}%
+\contentsline {subsection}{Вид статистического оператора и статистическая сумма}{29}{section*.79}%
+\contentsline {section}{Флуктуации энергии в каноническом ансамбле}{29}{section*.80}%
+\contentsline {subsection}{Распределение системы по состояниям с разной энергией}{30}{section*.81}%
+\contentsline {subsection}{Введение меры флуктуаций (среднеквадратичное отклонение)}{30}{section*.82}%
+\contentsline {subsection}{Вычисление среднего квадрата энергии}{30}{section*.83}%
+\contentsline {subsection}{Применение оператора производной по температуре}{30}{section*.84}%
+\contentsline {subsection}{Связь дисперсии энергии с макроскопической теплоемкостью}{31}{section*.85}%
+\contentsline {subsection}{Относительная флуктуация энергии в термодинамическом пределе}{32}{section*.86}%
+\contentsline {subsection}{Функция распределения по энергиям и эквивалентность ансамблей}{32}{section*.87}%
+\contentsline {section}{Большое каноническое распределение Гиббса}{33}{section*.88}%
+\contentsline {subsection}{Физическая постановка задачи: открытая система в термостате}{33}{section*.89}%
+\contentsline {subsection}{Состояние полной замкнутой системы (тело + среда)}{33}{section*.90}%
+\contentsline {subsection}{Разложение энтропии среды по малому изменению энергии и числа частиц}{34}{section*.91}%
+\contentsline {subsection}{Вероятность обнаружить систему в заданном микросостоянии}{34}{section*.92}%
+\contentsline {subsection}{Введение большой статистической суммы}{35}{section*.93}%
+\contentsline {subsection}{Статистический оператор Большого канонического ансамбля}{35}{section*.94}%
+\contentsline {section}{Термодинамические следствия Большого канонического ансамбля}{36}{section*.95}%
+\contentsline {subsection}{Вычисление среднего числа частиц системы}{36}{section*.96}%
+\contentsline {subsection}{Связь большой статсуммы с термодинамикой: Большой потенциал}{36}{section*.97}%
+\contentsline {subsection}{Дифференциал большого термодинамического потенциала}{37}{section*.98}%
+\contentsline {subsection}{Вывод уравнения состояния (Омега-потенциал и давление)}{38}{section*.99}%
+\contentsline {subsection}{Связь химического потенциала и удельного термодинамического потенциала}{38}{section*.100}%
+\contentsline {chapter}{\numberline {5}Лекция №5}{40}{chapter.5}%
+\contentsline {section}{Термодинамические следствия Большого канонического ансамбля}{40}{section*.101}%
+\contentsline {subsection}{Уравнение Гиббса-Дюгема из $\Omega $-потенциала}{40}{section*.102}%
+\contentsline {subsection}{Плотности термодинамических величин}{40}{section*.103}%
+\contentsline {subsection}{Соотношения для термодинамического потенциала Гиббса ($\Phi $)}{41}{section*.104}%
+\contentsline {section}{Флуктуации числа частиц в открытой системе}{41}{section*.105}%
+\contentsline {subsection}{Определение дисперсии числа частиц}{42}{section*.106}%
+\contentsline {subsection}{Связь флуктуации со статистической суммой}{42}{section*.107}%
+\contentsline {subsection}{Итоговое выражение для дисперсии}{42}{section*.108}%
+\contentsline {subsection}{Относительная флуктуация и эквивалентность ансамблей}{42}{section*.109}%
+\contentsline {section}{Идеальный квантовый газ: модель и Большой канонический ансамбль}{43}{section*.110}%
+\contentsline {subsection}{Модель невзаимодействующих частиц}{43}{section*.111}%
+\contentsline {subsection}{Микросостояния через числа заполнения}{43}{section*.112}%
+\contentsline {subsection}{Большая статистическая сумма идеального газа}{44}{section*.113}%
+\contentsline {section}{Статистика Ферми-Дирака}{44}{section*.114}%
+\contentsline {subsection}{Принцип Паули для фермионов}{44}{section*.115}%
+\contentsline {subsection}{Вычисление статсуммы для фермионов}{44}{section*.116}%
+\contentsline {subsection}{Средние числа заполнения: Распределение Ферми-Дирака}{45}{section*.117}%
+\contentsline {section}{Переход от суммирования к интегрированию}{45}{section*.118}%
+\contentsline {subsection}{Интегрирование по импульсному пространству}{45}{section*.119}%
+\contentsline {subsection}{Плотность одночастичных состояний $\nu (\epsilon )$}{46}{section*.120}%
+\contentsline {subsection}{Интегральные выражения для $\langle N \rangle $ и $\langle E \rangle $}{47}{section*.121}%
+\contentsline {section}{Классический и квантовый пределы ферми-газа}{47}{section*.122}%
+\contentsline {subsection}{Классический предел: переход к распределению Больцмана}{47}{section*.123}%
+\contentsline {subsection}{Вычисление $\langle N \rangle $ в классическом пределе}{47}{section*.124}%
+\contentsline {subsection}{Химический потенциал классического газа}{48}{section*.125}%
+\contentsline {subsection}{Температура вырождения}{48}{section*.126}%
+\contentsline {subsection}{Ультраквантовый предел ($T = 0$): энергия Ферми}{48}{section*.127}%
+\contentsline {subsection}{Число частиц и импульс Ферми при $T = 0$}{49}{section*.128}%
+\contentsline {subsection}{Энергия Ферми и её связь с температурой вырождения}{49}{section*.129}%
+\contentsline {section}{Критерий применимости модели идеального ферми-газа}{49}{section*.130}%
+\contentsline {subsection}{Когда можно пренебречь кулоновским взаимодействием?}{49}{section*.131}%
+\contentsline {subsection}{Парадоксальный результат: плотный газ — идеальный газ}{50}{section*.132}%
+\contentsline {chapter}{\numberline {6}Лекция №6}{51}{chapter.6}%
+\contentsline {section}{Приближённое вычисление интегралов с функцией Ферми-Дирака}{51}{section*.133}%
+\contentsline {subsection}{Постановка задачи}{51}{section*.134}%
+\contentsline {subsection}{Вывод разложения Зоммерфельда}{51}{section*.135}%
+\contentsline {subsection}{Форма разложения в исходных переменных}{52}{section*.136}%
+\contentsline {section}{Химический потенциал ферми-газа при низких температурах}{52}{section*.137}%
+\contentsline {subsection}{Уравнение для числа частиц}{52}{section*.138}%
+\contentsline {subsection}{Применение разложения Зоммерфельда}{52}{section*.139}%
+\contentsline {subsection}{Нахождение $\mu (T)$}{53}{section*.140}%
+\contentsline {subsection}{График зависимости $\mu (T)$}{53}{section*.141}%
+\contentsline {section}{Энергия и теплоёмкость идеального ферми-газа}{54}{section*.142}%
+\contentsline {subsection}{Энергия при $T = 0$}{54}{section*.143}%
+\contentsline {subsection}{Высокотемпературный предел}{54}{section*.144}%
+\contentsline {subsection}{Низкотемпературный случай: применение разложения Зоммерфельда}{54}{section*.145}%
+\contentsline {subsection}{Теплоёмкость ферми-газа}{54}{section*.146}%
+\contentsline {subsection}{Физическая интерпретация линейной теплоёмкости}{55}{section*.147}%
+\contentsline {section}{Уравнение состояния идеального ферми-газа}{55}{section*.148}%
+\contentsline {subsection}{Связь $\Omega $-потенциала с энергией}{55}{section*.149}%
+\contentsline {subsection}{Уравнение состояния: $PV = \frac {2}{3}E$}{56}{section*.150}%
+\contentsline {subsection}{Уравнение состояния при высоких температурах}{56}{section*.151}%
+\contentsline {subsection}{Уравнение состояния при низких температурах}{56}{section*.152}%
+\contentsline {section}{Большой канонический ансамбль для идеального бозе-газа}{56}{section*.153}%
+\contentsline {subsection}{Вычисление статистической суммы: метод одного уровня}{57}{section*.154}%
+\contentsline {subsection}{Полная статистическая сумма}{58}{section*.155}%
+\contentsline {subsection}{Распределение Бозе-Эйнштейна}{58}{section*.156}%
+\contentsline {subsection}{Уравнение на среднее число частиц и бозе-интегралы}{58}{section*.157}%
+\contentsline {chapter}{\numberline {7}Лекция №7}{59}{chapter.7}%
+\contentsline {section}{Свойства бозе-интегралов}{59}{section*.158}%
+\contentsline {subsection}{Определение бозе-интегралов}{59}{section*.159}%
+\contentsline {subsection}{Свойство 1: монотонное убывание}{59}{section*.160}%
+\contentsline {subsection}{Свойство 2: значения при $y = 0$}{59}{section*.161}%
+\contentsline {subsection}{Свойство 3: классический предел}{60}{section*.162}%
+\contentsline {subsection}{Свойство 4: поведение производных при $y \to 0$}{60}{section*.163}%
+\contentsline {subsection}{Удобная форма уравнения на число частиц}{60}{section*.164}%
+\contentsline {section}{Бозе-Эйнштейновская конденсация}{60}{section*.165}%
+\contentsline {subsection}{Когда уравнение перестаёт иметь решение}{60}{section*.166}%
+\contentsline {subsection}{Критическая температура}{61}{section*.167}%
+\contentsline {subsection}{Оценка для гелия-4}{61}{section*.168}%
+\contentsline {subsection}{Картина конденсации: при $T < T_c$}{61}{section*.169}%
+\contentsline {subsection}{Исторические замечания}{62}{section*.170}%
+\contentsline {section}{Энергия идеального бозе-газа}{62}{section*.171}%
+\contentsline {subsection}{Общая формула}{62}{section*.172}%
+\contentsline {subsection}{Высокотемпературный предел ($T \gg T_c$, $y \gg 1$)}{62}{section*.173}%
+\contentsline {subsection}{Низкотемпературный режим ($T < T_c$, $y = 0$)}{62}{section*.174}%
+\contentsline {section}{Теплоёмкость идеального бозе-газа}{63}{section*.175}%
+\contentsline {subsection}{Теплоёмкость при $T < T_c$}{63}{section*.176}%
+\contentsline {subsection}{Значение теплоёмкости в точке $T_c$}{63}{section*.177}%
+\contentsline {subsection}{Поведение теплоёмкости при $T > T_c$}{63}{section*.178}%
+\contentsline {section}{Уравнение состояния и изотермы идеального бозе-газа}{63}{section*.179}%
+\contentsline {subsection}{Связь давления с энергией}{63}{section*.180}%
+\contentsline {subsection}{Уравнение состояния при $T > T_c$}{63}{section*.181}%
+\contentsline {subsection}{Уравнение состояния при $T < T_c$}{63}{section*.182}%
+\contentsline {subsection}{Нарушение условия механической устойчивости}{64}{section*.183}%
+\contentsline {subsection}{Изотермы бозе-газа на диаграмме $P$--$V$}{64}{section*.184}%
+\contentsline {section}{Термодинамические потенциалы для открытой системы}{64}{section*.185}%
+\contentsline {subsection}{Первый закон для открытой системы}{64}{section*.186}%
+\contentsline {subsection}{Термодинамические потенциалы: идея Лежандрова преобразования}{65}{section*.187}%
+\contentsline {subsection}{Свободная энергия Гельмгольца}{65}{section*.188}%
+\contentsline {subsection}{Энтальпия}{65}{section*.189}%
+\contentsline {subsection}{Потенциал Гиббса}{65}{section*.190}%
+\contentsline {subsection}{Теорема Эйлера: потенциал Гиббса и химический потенциал}{65}{section*.191}%
+\contentsline {subsection}{Теорема малых добавок: химический потенциал как частная производная}{66}{section*.192}%
+\contentsline {section}{Условия минимальности термодинамических потенциалов}{66}{section*.193}%
+\contentsline {subsection}{Второй закон термодинамики}{66}{section*.194}%
+\contentsline {subsection}{Состояние частичного равновесия}{66}{section*.195}%
+\contentsline {subsection}{Максимизация энтропии в изолированной системе}{66}{section*.196}%
+\contentsline {subsection}{Что минимизируется при других условиях}{66}{section*.197}%
+\contentsline {chapter}{\numberline {8}Лекция №8}{67}{chapter.8}%
+\contentsline {section}{Переход из неравновесного состояния в равновесное в изолированной системе}{67}{section*.198}%
+\contentsline {subsection}{Постановка задачи}{67}{section*.199}%
+\contentsline {subsection}{Поведение энтропии}{67}{section*.200}%
+\contentsline {subsection}{Вероятность флуктуации в изолированной системе}{67}{section*.201}%
+\contentsline {section}{Тело в среде. Обобщение на открытые системы}{68}{section*.202}%
+\contentsline {subsection}{Постановка задачи}{68}{section*.203}%
+\contentsline {subsection}{Изменение энтропии среды}{68}{section*.204}%
+\contentsline {subsection}{Основное неравенство для тела в среде}{68}{section*.205}%
+\contentsline {subsection}{Следствие а: минимизация свободной энергии при фиксированных $T$, $V$}{68}{section*.206}%
+\contentsline {subsection}{Следствие б: минимизация потенциала Гиббса при фиксированных $T$, $P$}{69}{section*.207}%
+\contentsline {section}{Термодинамические неравенства. Условия устойчивости}{69}{section*.208}%
+\contentsline {subsection}{Разложение по малым отклонениям}{69}{section*.209}%
+\contentsline {subsection}{Необходимые и достаточные условия положительной определённости}{69}{section*.210}%
+\contentsline {subsection}{Первое термодинамическое неравенство: $C_V > 0$}{69}{section*.211}%
+\contentsline {subsection}{Из $a_{22} > 0$: адиабатическая сжимаемость}{70}{section*.212}%
+\contentsline {subsection}{Из условия на детерминант: изотермическая сжимаемость и соотношение $C_P \geq C_V$}{70}{section*.213}%
+\contentsline {section}{Флуктуации тела в среде}{70}{section*.214}%
+\contentsline {subsection}{Вероятность флуктуации тела в среде}{70}{section*.215}%
+\contentsline {subsection}{Частные случаи}{71}{section*.216}%
+\contentsline {subsection}{Квазиравновесные флуктуации}{71}{section*.217}%
+\contentsline {chapter}{\numberline {9}Лекция №9}{72}{chapter.9}%
+\contentsline {section}{Квазиравновесные флуктуации тела в среде: рабочие формулы}{72}{section*.218}%
+\contentsline {subsection}{Напоминание: вероятность флуктуации}{72}{section*.219}%
+\contentsline {subsection}{Переход к рабочей формуле}{72}{section*.220}%
+\contentsline {subsection}{Средние квадратичные флуктуации}{72}{section*.221}%
+\contentsline {subsection}{Флуктуации интенсивных и экстенсивных переменных}{73}{section*.222}%
+\contentsline {section}{Конденсированные тела. Фононы и модель Дебая}{73}{section*.223}%
+\contentsline {subsection}{Квантовый гармонический осциллятор}{73}{section*.224}%
+\contentsline {section}{Гамильтониан кристаллической решётки. Нормальные координаты}{74}{section*.225}%
+\contentsline {subsection}{Равновесные положения и смещения}{74}{section*.226}%
+\contentsline {subsection}{Гамильтониан в гармоническом приближении}{74}{section*.227}%
+\contentsline {subsection}{Нормальные координаты и моды колебаний}{74}{section*.228}%
+\contentsline {section}{Первая зона Бриллюэна. Число фононных мод}{74}{section*.229}%
+\contentsline {subsection}{Дискретность узлов и эквивалентность волновых векторов}{74}{section*.230}%
+\contentsline {subsection}{Число мод}{75}{section*.231}%
+\contentsline {section}{Приближение Дебая}{75}{section*.232}%
+\contentsline {subsection}{Дисперсия фононов}{75}{section*.233}%
+\contentsline {subsection}{Плотность фононных мод}{75}{section*.234}%
+\contentsline {subsection}{Частота Дебая}{75}{section*.235}%
+\contentsline {subsection}{Температура Дебая}{75}{section*.236}%
+\contentsline {section}{Энергия и теплоёмкость кристаллической решётки}{76}{section*.237}%
+\contentsline {subsection}{Средняя энергия}{76}{section*.238}%
+\contentsline {subsection}{Низкотемпературный предел ($T \ll T_D$)}{76}{section*.239}%
+\contentsline {subsection}{Высокотемпературный предел ($T \gg T_D$)}{76}{section*.240}%
+\contentsline {subsection}{Зависимость теплоёмкости от температуры}{76}{section*.241}%
+\contentsline {chapter}{\numberline {10}Лекция №10}{77}{chapter.10}%
+\contentsline {section}{Вторичное квантование для бозонов}{77}{section*.242}%
+\contentsline {subsection}{Одночастичные состояния}{77}{section*.243}%
+\contentsline {subsection}{Операторы рождения и уничтожения}{77}{section*.244}%
+\contentsline {subsection}{Вакуумное состояние и построение базисных векторов}{77}{section*.245}%
+\contentsline {section}{Пространство Фока}{78}{section*.246}%
+\contentsline {subsection}{Структура пространства}{78}{section*.247}%
+\contentsline {subsection}{Базис пространства Фока}{78}{section*.248}%
+\contentsline {section}{Операторы в пространстве Фока. Одночастичные операторы}{78}{section*.249}%
+\contentsline {subsection}{Гамильтониан без взаимодействия}{78}{section*.250}%
+\contentsline {subsection}{Гамильтониан в собственном базисе}{78}{section*.251}%
+\contentsline {subsection}{Пример: оператор полного импульса}{79}{section*.252}%
+\contentsline {section}{Полевые операторы $\hat {\psi }(\mathbf {r})$ и $\hat {\psi }^\dagger (\mathbf {r})$}{79}{section*.253}%
+\contentsline {subsection}{Определение и смысл}{79}{section*.254}%
+\contentsline {subsection}{Коммутационные соотношения полевых операторов}{79}{section*.255}%
+\contentsline {subsection}{Оператор плотности числа частиц}{79}{section*.256}%
+\contentsline {section}{Гамильтониан через полевые операторы}{80}{section*.257}%
+\contentsline {subsection}{Однoчастичный гамильтониан}{80}{section*.258}%
+\contentsline {subsection}{Двухчастичный оператор взаимодействия}{80}{section*.259}%
+\contentsline {chapter}{\numberline {11}Лекция №11}{81}{chapter.11}%
+\contentsline {section}{Оператор попарного взаимодействия во вторичном квантовании}{81}{section*.260}%
+\contentsline {subsection}{Нормальное упорядочение}{81}{section*.261}%
+\contentsline {subsection}{Оператор взаимодействия через полевые операторы}{81}{section*.262}%
+\contentsline {subsection}{Переход к импульсному представлению}{81}{section*.263}%
+\contentsline {section}{Слабо неидеальный бозе-газ. Гамильтониан}{82}{section*.264}%
+\contentsline {subsection}{Физическая картина}{82}{section*.265}%
+\contentsline {subsection}{Приближение слабого взаимодействия}{82}{section*.266}%
+\contentsline {section}{Замена Боголюбова. Волновая функция конденсата}{82}{section*.267}%
+\contentsline {subsection}{Волновая функция основного состояния}{82}{section*.268}%
+\contentsline {subsection}{Когерентные состояния}{82}{section*.269}%
+\contentsline {subsection}{Ключевая замена Боголюбова}{82}{section*.270}%
+\contentsline {subsection}{Волновая функция конденсата и спонтанное нарушение симметрии}{83}{section*.271}%
+\contentsline {section}{Энергия основного состояния и термодинамика}{83}{section*.272}%
+\contentsline {subsection}{Нулевое приближение}{83}{section*.273}%
+\contentsline {subsection}{Условие минимума и связь $\mu $ с $N_0$}{83}{section*.274}%
+\contentsline {subsection}{Давление и скорость звука}{83}{section*.275}%
+\contentsline {section}{Элементарные возбуждения бозе-газа. Уравнения движения}{83}{section*.276}%
+\contentsline {subsection}{Постановка задачи}{83}{section*.277}%
+\contentsline {subsection}{Метод уравнений движения}{84}{section*.278}%
+\contentsline {subsection}{Первый коммутатор: кинетическая энергия}{84}{section*.279}%
+\contentsline {subsection}{Второй коммутатор: взаимодействие (начало вычисления)}{84}{section*.280}%
+\contentsline {chapter}{\numberline {12}Лекция №12}{85}{chapter.12}%
+\contentsline {section}{Завершение вычисления $[\hat {a}_\mathbf {k},\,\hat {V}]$}{85}{section*.281}%
+\contentsline {subsection}{Приближение конденсата}{85}{section*.282}%
+\contentsline {subsection}{Уравнение движения}{86}{section*.283}%
+\contentsline {section}{Преобразование Боголюбова. Диагонализация гамильтониана}{86}{section*.284}%
+\contentsline {subsection}{Операторы квазичастиц}{86}{section*.285}%
+\contentsline {subsection}{Условие бозонности}{86}{section*.286}%
+\contentsline {subsection}{Нахождение спектра}{87}{section*.287}%
+\contentsline {section}{Спектр Боголюбова. Квазичастицы}{87}{section*.288}%
+\contentsline {subsection}{Два предельных режима}{87}{section*.289}%
+\contentsline {paragraph}{Длинноволновый режим, ${\mathchar "AF\mkern -9muh}k \ll mc_s$.}{87}{section*.290}%
+\contentsline {paragraph}{Коротковолновый режим, ${\mathchar "AF\mkern -9muh}k \gg mc_s$.}{87}{section*.291}%
+\contentsline {subsection}{Физический смысл квазичастиц}{88}{section*.292}%
+\contentsline {section}{Критерий сверхтекучести Ландау}{88}{section*.293}%
+\contentsline {subsection}{Постановка задачи}{88}{section*.294}%
+\contentsline {subsection}{Законы сохранения}{88}{section*.295}%
+\contentsline {subsection}{Критическая скорость}{88}{section*.296}%
+\contentsline {subsection}{Линейный спектр и сверхтекучесть}{89}{section*.297}%
+\contentsline {section}{Флуктуации параметра порядка. Функционал Гинзбурга--Ландау}{89}{section*.298}%
+\contentsline {subsection}{Неоднородный параметр порядка}{89}{section*.299}%
+\contentsline {subsection}{Функционал Гинзбурга--Ландау}{89}{section*.300}%
+\contentsline {subsection}{Разложение вблизи равновесия}{89}{section*.301}%
+\contentsline {section}{Флуктуации фурье-компонент}{90}{section*.302}%
+\contentsline {subsection}{Фурье-разложение}{90}{section*.303}%
+\contentsline {subsection}{Гауссовы флуктуации}{90}{section*.304}%
+\contentsline {subsection}{Доминирующие флуктуации и расходимость}{90}{section*.305}%
+\contentsline {section}{Корреляционная функция и корреляционная длина}{90}{section*.306}%
+\contentsline {subsection}{Определение корреляционной функции}{90}{section*.307}%
+\contentsline {subsection}{Вычисление}{91}{section*.308}%
+\contentsline {subsection}{Свойства корреляционной функции}{91}{section*.309}%
+\contentsline {paragraph}{1. Расходимость корреляционной длины.}{91}{section*.310}%
+\contentsline {paragraph}{2. Степенной закон прямо при $T = T_c$.}{91}{section*.311}%
+\contentsline {paragraph}{3. Область применимости.}{91}{section*.312}%

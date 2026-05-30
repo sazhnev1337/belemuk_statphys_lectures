@@ -83,6 +83,22 @@
 \end{equation*}
 где $W$ --- статистический вес. Это исходная точка всей статфизики; связывает микроскопику с термодинамикой.
 
+\textbf{Энтропия идеального газа (Саккур--Тетроде):}
+\begin{equation*}
+    S(E,V,N) = N\ln\!\left[\frac{eV}{N(2\pi\hbar)^3}\!\left(\frac{4\pi meE}{3N}\right)^{\!3/2}\right]
+\end{equation*}
+Из фундаментального соотношения $dS = \frac{dE}{T} + \frac{P}{T}dV - \frac{\mu}{T}dN$ следует брать частные производные $S$ и получать:
+\begin{align*}
+    \frac{\partial S}{\partial E}\bigg|_{V,N} &= \frac{1}{T} \;\Rightarrow\; E = \tfrac{3}{2}NT \\[2pt]
+    \frac{\partial S}{\partial V}\bigg|_{E,N} &= \frac{P}{T} \;\Rightarrow\; PV = NT \\[2pt]
+    \frac{\partial S}{\partial N}\bigg|_{E,V} &= -\frac{\mu}{T} \;\Rightarrow\; \mu = -T\ln\frac{v}{V_Q}
+\end{align*}
+\textbf{Квантовый объём} и тепловая длина волны де Бройля:
+\begin{equation*}
+    V_Q = \lambda_T^3, \qquad \lambda_T = \frac{h}{\sqrt{2\pi mT}}
+\end{equation*}
+Классический режим: $v = V/N \gg V_Q$ (длины волн частиц не перекрываются). В этом режиме $\mu < 0$. При $T \to 0$ квантовый объём $V_Q \propto T^{-3/2} \to \infty$, классическое описание разрушается при температуре вырождения $T_0$: $V_Q(T_0) \sim v$.
+
 \textbf{Каноническое распределение Гиббса} (система при фиксированной $T$):
 \begin{equation*}
     w_n = \frac{1}{Z}\,e^{-E_n/T}, \qquad Z = \sum_n e^{-E_n/T}

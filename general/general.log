@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  29 MAY 2026 18:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  30 MAY 2026 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -546,7 +546,7 @@ File: ../1/../1/images/4.jpg Graphic file (type bmp)
 [23]
 
 [24]
-Overfull \hbox (32.90036pt too wide) in paragraph at lines 327--329
+Overfull \hbox (32.90036pt too wide) in paragraph at lines 298--300
 \TU/cmunrm.otf(0)/m/n/10 Это является обобщением на непрерывный случай известного соотношения для дискретного базиса $[][] \OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ^^I[]\OMS/cmsy/m/n/10 ih\OT1/cmr/m/n/10 ^^I[]\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =
  []
 
@@ -843,15 +843,15 @@ L3 programming layer <2025-07-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `general.out' has not changed.
-(rerunfilecheck)             Checksum: 847F3331D032A20421C0A4E373E794A9;30086.
+(rerunfilecheck)             Checksum: A6CA19AE9720624CE931EB3B081B98A5;30086.
  ) 
 Here is how much of TeX's memory you used:
  13897 strings out of 468442
  267729 string characters out of 5445571
- 773796 words of memory out of 5000000
+ 772796 words of memory out of 5000000
  42097 multiletter control sequences out of 15000+600000
  635298 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,12n,96p,995b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on general.xdv (92 pages, 2040336 bytes).
+Output written on general.xdv (92 pages, 2029964 bytes).

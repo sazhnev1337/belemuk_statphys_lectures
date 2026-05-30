@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1780069071.95919 "general.xdv" "general.pdf" "general" 1780069072.97139 0
-  "general.xdv" 1780069071.86946 2040336 5153edba8b0ddfdb0c87dcb1b2d4cb85 "xelatex"
+["xdvipdfmx"] 1780137686.76058 "general.xdv" "general.pdf" "general" 1780137687.45374 0
+  "general.xdv" 1780137686.70827 2029964 f063e760037e33c7df612cfba38a94ac "xelatex"
   (generated)
   "general.pdf"
   (rewritten before read)
-["xelatex"] 1780069069.96037 "/home/sazhnev/Main/Study/stat_phys/lectures/general/general.tex" "general.xdv" "general" 1780069072.96953 0
+["xelatex"] 1780137685.41429 "/home/sazhnev/Main/Study/stat_phys/lectures/general/general.tex" "general.xdv" "general" 1780137687.45244 0
   "../1/../1/1.tex" 1780068969.50666 41267 a30c5cd011e7b8584bb82138d4a7a1bd ""
   "../1/../1/images/1.jpg" 1775223932 84466 1632f6a598ea54be245fb280b7df1819 ""
   "../1/../1/images/3.png" 1775223421.24982 35214 c5ab09274d15bc0f792afcb3afc7a437 ""
@@ -21,8 +21,8 @@
   "../12/12.tex" 1779470865.27399 33002 d05e6691dbd5fd3d876884a6bd335c4b ""
   "../2/../2/2.tex" 1780068997.50466 41648 3d8a10f2e9bad0ea1a3a2897658e886a ""
   "../2/2.tex" 1780068997.50466 41648 3d8a10f2e9bad0ea1a3a2897658e886a ""
-  "../3/../3/3.tex" 1776952782.91378 50695 4b08e4ca41a3b1dd8f0745eccd1975ff ""
-  "../3/3.tex" 1776952782.91378 50695 4b08e4ca41a3b1dd8f0745eccd1975ff ""
+  "../3/../3/3.tex" 1780137683.85191 48623 852e83201033d60faf38503c38a0d06a ""
+  "../3/3.tex" 1780137683.85191 48623 852e83201033d60faf38503c38a0d06a ""
   "../4/../4/4.tex" 1777489175.2333 58087 bbfc015ed361e7c7c5fec4bafcd3ce9b ""
   "../4/../4/images/1.png" 1776955295.02532 88626 8310f97052bca22049dde951186d879b ""
   "../4/../4/images/2.png" 1776955890.2098 114359 257455e536b66c6ec8f13d0d8c4853e1 ""
@@ -130,10 +130,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1755117454 5898300 db3e11b6e615ac88f840d776ba7792ae ""
   "/usr/local/texlive/2025/texmf.cnf" 1755117416.29276 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "general.aux" 1780069071.86366 67286 921d1dc207d8f517716d1241a92402e0 "xelatex"
-  "general.out" 1780069071.86872 30086 847f3331d032a20421c0a4e373e794a9 "xelatex"
+  "general.aux" 1780137686.70418 67088 0cce44f1708c8f1db16591394b160e0d "xelatex"
+  "general.out" 1780137686.70792 30086 a6ca19ae9720624ce931eb3b081b98a5 "xelatex"
   "general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
-  "general.toc" 1780069071.86923 38355 6ef316c5ca213a334dc1c23149723781 "xelatex"
+  "general.toc" 1780137686.70827 38198 8029629bab62dd79c12ea1010a3a06de "xelatex"
   (generated)
   "general.aux"
   "general.log"

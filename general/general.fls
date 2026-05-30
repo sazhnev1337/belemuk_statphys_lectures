@@ -207,6 +207,8 @@ INPUT ../3/../3/3.tex
 INPUT ../3/3.tex
 INPUT ../3/3.tex
 INPUT ../3/../3/3.tex
+INPUT ../3/images/mu(T).png
+INPUT ../3/../3/images/mu(T).png
 INPUT ../4/4.tex
 INPUT ../4/4.tex
 INPUT ../4/../4/4.tex

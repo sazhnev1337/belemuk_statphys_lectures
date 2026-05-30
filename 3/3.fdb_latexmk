@@ -1,12 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1780137688.9978 "3.xdv" "3.pdf" "3" 1780137689.19411 0
-  "/home/sazhnev/Main/Study/stat_phys/lectures/3/3.xdv" 1780137688.95918 224724 46b420c41e68cafc2751a6c2156b897d ""
-  "3.xdv" 1780137688.95918 224724 46b420c41e68cafc2751a6c2156b897d "xelatex"
+["xdvipdfmx"] 1780140021.32519 "3.xdv" "3.pdf" "3" 1780140021.61073 0
+  "/home/sazhnev/Main/Study/stat_phys/lectures/3/3.xdv" 1780140021.28128 224832 4e1acd071d64e4b9308e72bbfac1905c ""
+  "3.xdv" 1780140021.28128 224832 4e1acd071d64e4b9308e72bbfac1905c "xelatex"
   (generated)
   "/home/sazhnev/Main/Study/stat_phys/lectures/3/3.pdf"
   "3.pdf"
   (rewritten before read)
-["xelatex"] 1780137688.39905 "3.tex" "3.xdv" "3" 1780137689.19322 0
+["xelatex"] 1780140020.72952 "3.tex" "3.xdv" "3" 1780140021.60985 0
+  "../general/../3/images/mu(T).png" 1780139890.80545 73713 f17268cfc1fcc324c2f3d0de720ce68a ""
   "../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
   "../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -82,9 +83,9 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1755117454 5898300 db3e11b6e615ac88f840d776ba7792ae ""
   "/usr/local/texlive/2025/texmf.cnf" 1755117416.29276 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "3.aux" 1780137688.95818 3916 6dd7740ac8ea7a37648142344e27afe0 "xelatex"
-  "3.out" 1780137688.95918 1701 aa7d274d8383eb32c64bb806c32aeded "xelatex"
-  "3.tex" 1780137683.85191 48623 852e83201033d60faf38503c38a0d06a ""
+  "3.aux" 1780140021.28025 3916 933e8acc48b06d0fd65b09946637beda "xelatex"
+  "3.out" 1780140021.28025 1701 aa7d274d8383eb32c64bb806c32aeded "xelatex"
+  "3.tex" 1780140015.28387 48337 ff92c802e7b4ee90b9c5e9221527421a ""
   (generated)
   "3.aux"
   "3.log"

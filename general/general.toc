@@ -71,12 +71,12 @@
 \contentsline {subsection}{Проекционный оператор чистого состояния}{24}{section*.68}%
 \contentsline {subsection}{Свойства проекционного оператора}{24}{section*.69}%
 \contentsline {subsection}{Вычисление квантовомеханического среднего через шпур (след)}{25}{section*.70}%
-\contentsline {section}{Смешанные ансамбли и равновесная матрица плотности}{25}{section*.71}%
-\contentsline {subsection}{Физические причины возникновения смешанных состояний}{25}{section*.72}%
+\contentsline {section}{Смешанные ансамбли и равновесная матрица плотности}{26}{section*.71}%
+\contentsline {subsection}{Физические причины возникновения смешанных состояний}{26}{section*.72}%
 \contentsline {subsection}{Смешанный ансамбль и двойное усреднение}{26}{section*.73}%
-\contentsline {subsection}{Определение статистического оператора (матрицы плотности)}{26}{section*.74}%
+\contentsline {subsection}{Определение статистического оператора (матрицы плотности)}{27}{section*.74}%
 \contentsline {subsection}{Свойства матрицы плотности}{27}{section*.75}%
-\contentsline {subsection}{Квантовое каноническое распределение}{27}{section*.76}%
+\contentsline {subsection}{Квантовое каноническое распределение}{28}{section*.76}%
 \contentsline {chapter}{\numberline {4}Лекция №4}{29}{chapter.4}%
 \contentsline {section}{Напоминание: Статистический оператор канонического ансамбля}{29}{section*.77}%
 \contentsline {subsection}{Вид статистического оператора и статистическая сумма}{29}{section*.78}%

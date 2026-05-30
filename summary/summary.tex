@@ -83,7 +83,7 @@
 \end{equation*}
 где $W$ --- статистический вес. Это исходная точка всей статфизики; связывает микроскопику с термодинамикой.
 
-\textbf{Энтропия идеального газа (Саккур--Тетроде):}
+\textbf{Энтропия идеального газа (микроканонический ансамбль):}
 \begin{equation*}
     S(E,V,N) = N\ln\!\left[\frac{eV}{N(2\pi\hbar)^3}\!\left(\frac{4\pi meE}{3N}\right)^{\!3/2}\right]
 \end{equation*}
@@ -107,6 +107,26 @@
 \begin{equation*}
     F = -T\ln Z, \quad S = -\frac{\partial F}{\partial T},\quad P = -\frac{\partial F}{\partial V},\quad \mu = \frac{\partial F}{\partial N}
 \end{equation*}
+\textbf{Формула Саккура--Тетроде} (из $F$ идеального газа; $S$ как функция $T$):
+\begin{equation*}
+    S = N\!\left[\ln\frac{v}{V_Q} + \frac{5}{2}\right], \qquad v = \frac{V}{N}
+\end{equation*}
+
+\textbf{Матрица плотности} (статистический оператор). Если система не описывается одной волновой функцией (смешанный ансамбль), вводится оператор:
+\begin{equation*}
+    \hat{\rho} = \sum_k w_k |\Psi_k\rangle\langle\Psi_k|, \qquad \sum_k w_k = 1
+\end{equation*}
+Свойства: $\hat{\rho}^\dagger = \hat{\rho}$, $\mathrm{Sp}(\hat{\rho}) = 1$. Среднее любой наблюдаемой:
+\begin{equation*}
+    \langle A \rangle = \mathrm{Sp}(\hat{A}\hat{\rho})
+\end{equation*}
+Критерий чистого состояния: $\hat{\rho}^2 = \hat{\rho}$; для смешанного $\hat{\rho}^2 \neq \hat{\rho}$.
+
+\textbf{Квантовое каноническое распределение:}
+\begin{equation*}
+    \hat{\rho} = \frac{1}{Z}\,e^{-\hat{H}/T}, \qquad Z = \mathrm{Sp}\!\left(e^{-\hat{H}/T}\right)
+\end{equation*}
+В собственном базисе $\hat{H}|\Psi_k\rangle = E_k|\Psi_k\rangle$ это сводится к $w_k = e^{-E_k/T}/Z$ — распределению Гиббса. Свободная энергия по-прежнему $F = -T\ln Z$.
 
 \textbf{Большой канонический ансамбль} (фиксированы $T$ и $\mu$):
 \begin{equation*}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  30 MAY 2026 13:41
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  30 MAY 2026 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -549,13 +549,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 
 [2]
+File: ../general/../3/images/mu(T).png Graphic file (type bmp)
+<../general/../3/images/mu(T).png>
+
 
 [3]
 
 [4]
 
 [5]
-Overfull \hbox (32.90036pt too wide) in paragraph at lines 298--300
+Overfull \hbox (32.90036pt too wide) in paragraph at lines 299--301
 \TU/cmunrm.otf(0)/m/n/10 Это является обобщением на непрерывный случай известно
 го соотношения для дискретного базиса $[][] \OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ^
 ^I[]\OMS/cmsy/m/n/10 ih\OT1/cmr/m/n/10 ^^I[]\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 
@@ -579,12 +582,12 @@ Package rerunfilecheck Info: File `3.out' has not changed.
 (rerunfilecheck)             Checksum: AA7D274D8383EB32C64BB806C32AEDED;1701.
  ) 
 Here is how much of TeX's memory you used:
- 13521 strings out of 468442
- 260713 string characters out of 5445571
- 735484 words of memory out of 5000000
- 41810 multiletter control sequences out of 15000+600000
+ 13544 strings out of 468442
+ 261263 string characters out of 5445571
+ 734484 words of memory out of 5000000
+ 41831 multiletter control sequences out of 15000+600000
  629044 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,9n,113p,649b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 3.xdv (9 pages, 224724 bytes).
+Output written on 3.xdv (9 pages, 224832 bytes).

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1780237999.97731 "general.xdv" "general.pdf" "general" 1780238001.32536 0
-  "general.xdv" 1780237999.87851 2029700 82e16e79eb4d5d621b9fb25af8e63b82 "xelatex"
+["xdvipdfmx"] 1780260339.13001 "general.xdv" "general.pdf" "general" 1780260340.06518 0
+  "general.xdv" 1780260339.0762 2029816 f0a4a72c86200bd54bbe3babc2ffa5ad "xelatex"
   (generated)
   "general.pdf"
   (rewritten before read)
-["xelatex"] 1780237997.96927 "/home/sazhnev/Main/Study/stat_phys/lectures/general/general.tex" "general.xdv" "general" 1780238001.32337 0
+["xelatex"] 1780260337.7164 "/home/sazhnev/Main/Study/stat_phys/lectures/general/general.tex" "general.xdv" "general" 1780260340.06374 0
   "../1/../1/1.tex" 1780068969.50666 41267 a30c5cd011e7b8584bb82138d4a7a1bd ""
   "../1/../1/images/1.jpg" 1775223932 84466 1632f6a598ea54be245fb280b7df1819 ""
   "../1/../1/images/3.png" 1775223421.24982 35214 c5ab09274d15bc0f792afcb3afc7a437 ""
@@ -37,11 +37,11 @@
   "../5/5.tex" 1780237982.83808 53920 1e5b68605f44bf7e83d51f555a8b0978 ""
   "../5/images/W(N).jpg" 1780230712.31455 15688 a004d8be42122ee3f83feacb3745425c ""
   "../5/images/nu(e).png" 1780237852.1654 81514 c4d91edc85389219ab7c781804ef0cc2 ""
-  "../6/../6/6.tex" 1778854836.15361 28395 479c31b03a2e925ac7059167f55af1c4 ""
+  "../6/../6/6.tex" 1780260330.97493 28435 47cffe666dcc84a9c710e488de01c444 ""
   "../6/../6/images/E.jpg" 1778851604.89416 31998 a5e9711a7e7ee192f04b09bd40bdb163 ""
   "../6/../6/images/mu.jpg" 1778850354.71057 28957 d321ea95ecfb3c548c908a8bf890f680 ""
   "../6/../6/images/sost.jpg" 1778854779.01335 34315 c16e10e218e0bf39d0dc4cb6f9bbbbb4 ""
-  "../6/6.tex" 1778854836.15361 28395 479c31b03a2e925ac7059167f55af1c4 ""
+  "../6/6.tex" 1780260330.97493 28435 47cffe666dcc84a9c710e488de01c444 ""
   "../6/images/E.jpg" 1778851604.89416 31998 a5e9711a7e7ee192f04b09bd40bdb163 ""
   "../6/images/mu.jpg" 1778850354.71057 28957 d321ea95ecfb3c548c908a8bf890f680 ""
   "../6/images/sost.jpg" 1778854779.01335 34315 c16e10e218e0bf39d0dc4cb6f9bbbbb4 ""
@@ -136,10 +136,10 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1755117454 5898300 db3e11b6e615ac88f840d776ba7792ae ""
   "/usr/local/texlive/2025/texmf.cnf" 1755117416.29276 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "general.aux" 1780237999.87234 66897 f6c01e3f8163124e66d61f9060c41f6b "xelatex"
-  "general.out" 1780237999.87803 30086 a6ca19ae9720624ce931eb3b081b98a5 "xelatex"
+  "general.aux" 1780260339.07237 66938 d9faf6890e1288ccc962d6f82b6b1c05 "xelatex"
+  "general.out" 1780260339.07585 30086 a6ca19ae9720624ce931eb3b081b98a5 "xelatex"
   "general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
-  "general.toc" 1780237999.87851 38198 cc2f393476de77039fc6986a292dbffe "xelatex"
+  "general.toc" 1780260339.0762 38198 cc2f393476de77039fc6986a292dbffe "xelatex"
   (generated)
   "general.aux"
   "general.log"

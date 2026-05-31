@@ -1,17 +1,17 @@
 # Fdb version 4
-["xdvipdfmx"] 1778854836.8955 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.pdf" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6" 1778854837.0925 0
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" 1778854836.85836 128660 832f10e4d0a0982acea0f24a4075bf71 "xelatex"
+["xdvipdfmx"] 1780260332.3218 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.pdf" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6" 1780260332.54205 0
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" 1780260332.28832 128776 740b14ffdce0a792d18d921c87e9cd12 "xelatex"
   (generated)
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.pdf"
   (rewritten before read)
-["xelatex"] 1778854836.33655 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "6" 1778854837.0915 0
-  "../general/general.tex" 1778836709.87009 553 036c7d79c820c1dde87fe9ea6ff01a37 ""
+["xelatex"] 1780260331.74297 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "6" 1780260332.54112 0
+  "../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
   "../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/../general/general.tex" 1778836709.87009 553 036c7d79c820c1dde87fe9ea6ff01a37 ""
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.aux" 1778854836.85661 6008 2878d23608b7057c17ce2ee404efe00c "xelatex"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.out" 1778854836.85761 2381 30ffc32e72399db515c3ff558ab22710 "xelatex"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" 1778854836.15361 28395 479c31b03a2e925ac7059167f55af1c4 ""
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.aux" 1780260332.28568 6049 6dcd02d80b02d5839b7eb4340eef3256 "xelatex"
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.out" 1780260332.28668 2381 30ffc32e72399db515c3ff558ab22710 "xelatex"
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" 1780260330.97493 28435 47cffe666dcc84a9c710e488de01c444 ""
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/E.jpg" 1778851604.89416 31998 a5e9711a7e7ee192f04b09bd40bdb163 ""
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/mu.jpg" 1778850354.71057 28957 d321ea95ecfb3c548c908a8bf890f680 ""
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/sost.jpg" 1778854779.01335 34315 c16e10e218e0bf39d0dc4cb6f9bbbbb4 ""

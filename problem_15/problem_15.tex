@@ -1,0 +1,148 @@
+\documentclass[12pt,a4paper]{article}
+\input{../preamble}
+
+\begin{document}
+
+\begin{center}
+    {\large \textbf{Задача 15. Спиновая магнитная восприимчивость вырожденного электронного газа}}\\[0.5em]
+    {\normalsize (Парамагнетизм Паули свободных электронов)}
+\end{center}
+
+\vspace{1em}
+
+\section*{Условие}
+
+Найти спиновую магнитную восприимчивость вырожденного электронного газа (парамагнетизм Паули свободных электронов).
+
+\section*{Решение}
+
+\subsection*{Режим вырождения}
+
+Рассматриваем режим сильного вырождения:
+\begin{equation}
+    \mu_0 H \ll T \ll \mu \approx \varepsilon_F,
+\end{equation}
+где $\mu_0 = \frac{e\hbar}{2mc}$ — магнетон Бора, $\mu$ — химический потенциал, $\varepsilon_F$ — энергия Ферми.
+
+\subsection*{Элемент фазового объёма}
+
+Число квантовых состояний в элементе фазового объёма (без учёта спина):
+\begin{equation}
+    d\nu = \frac{d^3q\, d^3p}{(2\pi\hbar)^3}.
+\end{equation}
+
+\subsection*{Функции распределения Ферми–Дирака}
+
+Для идеального ферми-газа во внешнем магнитном поле $H$ заселённости электронов со спином «вверх» ($+$) и «вниз» ($-$) различаются за счёт зеемановского сдвига энергии $\mp\mu_0 H$:
+\begin{equation}
+    n_\pm = \frac{1}{\displaystyle e^{\frac{\varepsilon \mp \mu_0 H - \mu}{T}} + 1}.
+\end{equation}
+
+\subsection*{Магнитный момент}
+
+Полный магнитный момент системы:
+\begin{equation}
+    M = \mu_0 \int d\nu\, \bigl[n_+(\varepsilon) - n_-(\varepsilon)\bigr].
+\end{equation}
+
+\paragraph{Разложение по малому параметру $\mu_0 H / T \ll 1$.}
+
+Введём обозначение $n(\varepsilon) \equiv \bigl(e^{(\varepsilon-\mu)/T}+1\bigr)^{-1}$. Разложение Тейлора по малому $\mu_0 H \ll T$:
+\begin{align}
+    n_+(\varepsilon) &= n(\varepsilon - \mu_0 H) = n(\varepsilon) - \mu_0 H\,\frac{\partial n}{\partial \varepsilon} + O(H^2), \\
+    n_-(\varepsilon) &= n(\varepsilon + \mu_0 H) = n(\varepsilon) + \mu_0 H\,\frac{\partial n}{\partial \varepsilon} + O(H^2).
+\end{align}
+
+Это обычное разложение Тейлора: поскольку $\mu_0 H \ll T$, а функция $n$ меняется на масштабе $T$, параметр разложения есть $\mu_0 H / T \ll 1$. Вычитая:
+\begin{equation}
+    n_+ - n_- = -2\mu_0 H\,\frac{\partial n(\varepsilon-\mu)}{\partial \varepsilon} + O(H^3),
+\end{equation}
+и подставляя в $M$:
+\begin{equation}
+    M \approx -2\mu_0^2 H \int d\nu\, \left(\frac{\partial n(\varepsilon-\mu)}{\partial \varepsilon}\right)_{V,T}.
+\end{equation}
+
+\paragraph{Соотношение $\partial n/\partial\varepsilon = -\partial n/\partial\mu$.}
+
+Функция Ферми–Дирака зависит от $\varepsilon$ и $\mu$ только через их разность:
+\begin{equation}
+    n(\varepsilon,\mu,T) = \frac{1}{e^{(\varepsilon-\mu)/T}+1} \equiv f(\varepsilon - \mu).
+\end{equation}
+Поскольку $\varepsilon$ и $\mu$ входят в одну комбинацию $(\varepsilon - \mu)$, то
+\begin{equation}
+    \frac{\partial n}{\partial \varepsilon} = f'(\varepsilon-\mu)\cdot(+1), \qquad
+    \frac{\partial n}{\partial \mu}  = f'(\varepsilon-\mu)\cdot(-1),
+\end{equation}
+откуда немедленно следует $\dfrac{\partial n}{\partial \varepsilon} = -\dfrac{\partial n}{\partial \mu}$.
+
+Явно: $\dfrac{\partial n}{\partial \varepsilon} = -\dfrac{e^{(\varepsilon-\mu)/T}}{T\bigl(e^{(\varepsilon-\mu)/T}+1\bigr)^2}$ — отрицательна, и $\dfrac{\partial n}{\partial \mu} = +\dfrac{e^{(\varepsilon-\mu)/T}}{T\bigl(e^{(\varepsilon-\mu)/T}+1\bigr)^2}$ — положительна.
+
+Используя это соотношение и вынося производную по $\mu$ за знак интеграла (пределы интегрирования от $\mu$ не зависят):
+\begin{equation}
+    M = 2\mu_0^2 H \int d\nu\, \frac{\partial n(\varepsilon-\mu)}{\partial \mu}\bigg|_{V,T}
+      = 2\mu_0^2 H \,\frac{\partial}{\partial \mu} \int d\nu\, n(\varepsilon-\mu)
+      = \mu_0^2 H \left(\frac{\partial N}{\partial \mu}\right)_{V,T,H=0},
+\end{equation}
+где $N = 2\int d\nu\, n(\varepsilon - \mu)$ — полное число частиц (множитель 2 — от двух проекций спина).
+
+\subsection*{Восприимчивость}
+
+По определению спиновая магнитная восприимчивость:
+\begin{equation}
+    \chi_\text{пара} = \frac{\partial M}{\partial H} = \mu_0^2 \left(\frac{\partial N}{\partial \mu}\right)_{V,T,H=0}.
+\end{equation}
+
+\subsection*{Число частиц через плотность состояний}
+
+Полная плотность состояний (обе проекции спина):
+\begin{equation}
+    \nu(\varepsilon) = \frac{V(2m)^{3/2}}{2\pi^2\hbar^3}\,\sqrt{\varepsilon}.
+\end{equation}
+
+При $T = 0$ число частиц:
+\begin{equation}
+    N = \int_0^{\varepsilon_F} \nu(\varepsilon)\, d\varepsilon
+      = \frac{V(2m)^{3/2}}{2\pi^2\hbar^3} \cdot \frac{2}{3}\,\varepsilon_F^{3/2}
+      = \nu(\varepsilon_F) \cdot \frac{2}{3}\,\varepsilon_F,
+\end{equation}
+откуда $\nu(\varepsilon_F) = \dfrac{3N}{2\varepsilon_F}$. Это полезное соотношение связывает восприимчивость с наблюдаемыми величинами.
+
+\subsection*{Разложение Зоммерфельда для $N$}
+
+При малых $T \ll \varepsilon_F$ число частиц с учётом температурной поправки (разложение Зоммерфельда):
+\begin{equation}
+    N = \frac{(2m)^{3/2}\,V}{3\pi^2\hbar^3}\,\mu^{3/2}
+        + \frac{\pi^2}{6}\left(\frac{m}{2\hbar^2}\right)^{3/2}
+          \frac{V}{\mu^{1/2}}\cdot T^2 + \mathcal{O}(T^4).
+\end{equation}
+
+Дифференцируя по $\mu$:
+\begin{equation}
+    \left(\frac{\partial N}{\partial \mu}\right)_{V,T} =
+        \frac{(2m)^{3/2}\,V}{2\pi^2\hbar^3}\,\mu^{1/2}
+        - \frac{\pi^2}{12}\left(\frac{m}{2\hbar^2}\right)^{3/2}
+          \frac{V}{\mu^{3/2}}\cdot T^2 + \mathcal{O}(T^4).
+\end{equation}
+
+\subsection*{Результат}
+
+Подставляя $\mu_0 = \dfrac{e\hbar}{2mc}$:
+\begin{equation}
+    \boxed{
+    \chi_\text{пара} =
+        \frac{e^2}{4\pi^2 c^2 \hbar}\sqrt{\frac{2\mu}{m}}
+        - \frac{e^2 T^2}{48\sqrt{2m}\,c^2\hbar\,\mu^{3/2}}
+        + \mathcal{O}(T^4) > 0.
+    }
+\end{equation}
+
+\vspace{0.5em}
+\noindent
+Главный член соответствует результату Паули при $T=0$ и может быть записан через плотность состояний на уровне Ферми:
+\begin{equation}
+    \chi_\text{пара}^{(0)} = \mu_0^2\, \nu(\varepsilon_F) = \frac{3N\mu_0^2}{2\varepsilon_F}.
+\end{equation}
+
+Температурная поправка отрицательна: при повышении $T$ восприимчивость убывает, однако система остаётся парамагнитной ($\chi_\text{пара} > 0$).
+
+\end{document}

@@ -225,6 +225,10 @@ INPUT ../5/../5/5.tex
 INPUT ../5/5.tex
 INPUT ../5/5.tex
 INPUT ../5/../5/5.tex
+INPUT ../5/images/W(N).jpg
+INPUT ../5/../5/images/W(N).jpg
+INPUT ../5/images/nu(e).png
+INPUT ../5/../5/images/nu(e).png
 INPUT ../6/6.tex
 INPUT ../6/6.tex
 INPUT ../6/../6/6.tex

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  30 MAY 2026 16:30
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  31 MAY 2026 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,13 +646,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]\TU/cmunrm.otf(0)/b/n/10 Потенциал Гиббса и $\OML/cmm/m/it/10 ^^V$\TU/cmunrm.
+otf(0)/b/n/10 . \TU/cmunrm.otf(0)/m/n/10 Экстенсивность:
+ []
+
+
 
 
 
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 [][]\TU/cmunrm.otf(0)/b/n/14.4 9. Сверхтекучесть. Критерий
  []
 
@@ -662,9 +668,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--270
 
 
 
+[3]
 
 
-[3] (./summary.aux)
+
+
+
+
+
+[4] (./summary.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
@@ -679,6 +691,6 @@ Here is how much of TeX's memory you used:
  42075 multiletter control sequences out of 15000+600000
  635282 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,13n,96p,815b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,13n,96p,815b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on summary.xdv (3 pages, 73624 bytes).
+Output written on summary.xdv (4 pages, 88660 bytes).

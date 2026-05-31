@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  30 MAY 2026 14:20
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  31 MAY 2026 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -612,6 +612,9 @@ Overfull \hbox (6.36632pt too wide) in paragraph at lines 535--537
 ]
 
 [41]
+File: ../5/../5/images/W(N).jpg Graphic file (type bmp)
+<../5/../5/images/W(N).jpg>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -624,6 +627,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [44]
 
 [45]
+File: ../5/../5/images/nu(e).png Graphic file (type bmp)
+<../5/../5/images/nu(e).png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [46]
 
@@ -849,12 +859,12 @@ Package rerunfilecheck Info: File `general.out' has not changed.
 (rerunfilecheck)             Checksum: A6CA19AE9720624CE931EB3B081B98A5;30086.
  ) 
 Here is how much of TeX's memory you used:
- 13932 strings out of 468442
- 268392 string characters out of 5445571
+ 13976 strings out of 468442
+ 269350 string characters out of 5445571
  773796 words of memory out of 5000000
- 42116 multiletter control sequences out of 15000+600000
+ 42150 multiletter control sequences out of 15000+600000
  635298 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,12n,96p,995b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on general.xdv (92 pages, 2030076 bytes).
+Output written on general.xdv (92 pages, 2029700 bytes).

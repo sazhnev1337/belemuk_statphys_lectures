@@ -1,0 +1,42 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Лекция №7}{1}{chapter.1}%
+\contentsline {section}{Свойства бозе-интегралов}{3}{section*.2}%
+\contentsline {subsection}{Определение бозе-интегралов}{3}{section*.3}%
+\contentsline {subsection}{Свойство 1: монотонное убывание}{3}{section*.4}%
+\contentsline {subsection}{Свойство 2: значения при $y = 0$}{3}{section*.5}%
+\contentsline {subsection}{Свойство 3: классический предел}{3}{section*.6}%
+\contentsline {subsection}{Свойство 4: поведение производных при $y \to 0$}{4}{section*.7}%
+\contentsline {subsection}{Удобная форма уравнения на число частиц}{4}{section*.8}%
+\contentsline {section}{Бозе-Эйнштейновская конденсация}{4}{section*.9}%
+\contentsline {subsection}{Когда уравнение перестаёт иметь решение}{4}{section*.10}%
+\contentsline {subsection}{Критическая температура}{5}{section*.11}%
+\contentsline {subsection}{Оценка для гелия-4}{5}{section*.12}%
+\contentsline {subsection}{Картина конденсации: при $T < T_c$}{5}{section*.13}%
+\contentsline {subsection}{Исторические замечания}{6}{section*.14}%
+\contentsline {section}{Энергия идеального бозе-газа}{6}{section*.15}%
+\contentsline {subsection}{Общая формула}{6}{section*.16}%
+\contentsline {subsection}{Высокотемпературный предел ($T \gg T_c$, $y \gg 1$)}{6}{section*.17}%
+\contentsline {subsection}{Низкотемпературный режим ($T < T_c$, $y = 0$)}{6}{section*.18}%
+\contentsline {section}{Теплоёмкость идеального бозе-газа}{7}{section*.19}%
+\contentsline {subsection}{Теплоёмкость при $T < T_c$}{7}{section*.20}%
+\contentsline {subsection}{Значение теплоёмкости в точке $T_c$}{7}{section*.21}%
+\contentsline {subsection}{Поведение теплоёмкости при $T > T_c$}{7}{section*.22}%
+\contentsline {section}{Уравнение состояния и изотермы идеального бозе-газа}{7}{section*.23}%
+\contentsline {subsection}{Связь давления с энергией}{7}{section*.24}%
+\contentsline {subsection}{Уравнение состояния при $T > T_c$}{8}{section*.25}%
+\contentsline {subsection}{Уравнение состояния при $T < T_c$}{8}{section*.26}%
+\contentsline {subsection}{Нарушение условия механической устойчивости}{8}{section*.27}%
+\contentsline {subsection}{Изотермы бозе-газа на диаграмме $P$--$V$}{8}{section*.28}%
+\contentsline {section}{Термодинамические потенциалы для открытой системы}{9}{section*.29}%
+\contentsline {subsection}{Первый закон для открытой системы}{9}{section*.30}%
+\contentsline {subsection}{Термодинамические потенциалы: идея Лежандрова преобразования}{9}{section*.31}%
+\contentsline {subsection}{Свободная энергия Гельмгольца}{9}{section*.32}%
+\contentsline {subsection}{Энтальпия}{9}{section*.33}%
+\contentsline {subsection}{Потенциал Гиббса}{10}{section*.34}%
+\contentsline {subsection}{Теорема Эйлера: потенциал Гиббса и химический потенциал}{10}{section*.35}%
+\contentsline {subsection}{Теорема малых добавок: химический потенциал как частная производная}{10}{section*.36}%
+\contentsline {section}{Условия минимальности термодинамических потенциалов}{10}{section*.37}%
+\contentsline {subsection}{Второй закон термодинамики}{10}{section*.38}%
+\contentsline {subsection}{Состояние частичного равновесия}{10}{section*.39}%
+\contentsline {subsection}{Максимизация энтропии в изолированной системе}{11}{section*.40}%
+\contentsline {subsection}{Что минимизируется при других условиях}{11}{section*.41}%

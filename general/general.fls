@@ -247,6 +247,12 @@ INPUT ../7/../7/7.tex
 INPUT ../7/7.tex
 INPUT ../7/7.tex
 INPUT ../7/../7/7.tex
+INPUT ../7/images/graph.jpg
+INPUT ../7/../7/images/graph.jpg
+INPUT ../7/images/c(w).jpg
+INPUT ../7/../7/images/c(w).jpg
+INPUT ../7/images/izo.jpg
+INPUT ../7/../7/images/izo.jpg
 INPUT ../8/8.tex
 INPUT ../8/8.tex
 INPUT ../8/../8/8.tex

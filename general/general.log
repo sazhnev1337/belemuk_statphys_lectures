@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  31 MAY 2026 23:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.13)  1 JUN 2026 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,7 +549,7 @@ File: ../3/../3/images/mu(T).png Graphic file (type bmp)
 [23]
 
 [24]
-Overfull \hbox (32.90036pt too wide) in paragraph at lines 299--301
+Overfull \hbox (32.90036pt too wide) in paragraph at lines 300--302
 \TU/cmunrm.otf(0)/m/n/10 Это является обобщением на непрерывный случай известного соотношения для дискретного базиса $[][] \OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ^^I[]\OMS/cmsy/m/n/10 ih\OT1/cmr/m/n/10 ^^I[]\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =
  []
 
@@ -588,14 +588,14 @@ File: ../4/../4/images/2.png Graphic file (type bmp)
 [35]
 
 [36]
-Overfull \hbox (3.77216pt too wide) in paragraph at lines 465--467
+Overfull \hbox (3.77216pt too wide) in paragraph at lines 466--468
 \TU/cmunrm.otf(0)/m/n/10 Подставляем известное из термодинамики выражение для дифференциала свободной энергии $\OML/cmm/m/it/10 dF \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 SdT \OMS/cmsy/m/n/10 ^^@
  []
 
 
 
 [37]
-Overfull \hbox (6.36632pt too wide) in paragraph at lines 535--537
+Overfull \hbox (6.36632pt too wide) in paragraph at lines 536--538
 \TU/cmunrm.otf(0)/m/n/10 Отсюда видно, что естественными переменными для энергии Гиббса являются $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T; P; N\OT1/cmr/m/n/10 )$\TU/cmunrm.otf(0)/m/n/10 . Функция $\OT1/cmr/m/n/10 ^^H(\OML/cmm/m/it/10 T; P; N\OT1/cmr/m/n/10 )$
  []
 
@@ -646,7 +646,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [50]
 Глава 6.
 
-Overfull \hbox (15.81978pt too wide) in paragraph at lines 11--11
+Overfull \hbox (15.81978pt too wide) in paragraph at lines 12--12
 [][]\TU/cmunrm.otf(0)/b/n/14.4 Приближённое вычисление интегралов с функцией Ферми-Дирака 
  []
 
@@ -692,7 +692,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [59
 
 ]
-Overfull \hbox (13.91208pt too wide) in paragraph at lines 106--107
+File: ../7/../7/images/graph.jpg Graphic file (type bmp)
+<../7/../7/images/graph.jpg>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (13.91208pt too wide) in paragraph at lines 112--113
 \TU/cmunrm.otf(0)/m/n/10 тра. Они вынуждены конденсироваться на нулевом уровне энергии $\OML/cmm/m/it/10 ^^O \OT1/cmr/m/n/10 = 0$ \TU/cmunrm.otf(0)/m/n/10 — это и есть \TU/cmunrm.otf(0)/b/n/10 бозе-эйнштейновская
  []
 
@@ -703,150 +710,158 @@ Overfull \hbox (13.91208pt too wide) in paragraph at lines 106--107
 [61]
 
 [62]
+File: ../7/../7/images/c(w).jpg Graphic file (type bmp)
+<../7/../7/images/c(w).jpg>
+
 
 [63]
-Underfull \hbox (badness 2951) in paragraph at lines 320--320
-[]\TU/cmunrm.otf(0)/m/n/10 Рис. 7.3: []Изотермы идеального бозе-газа. Горизонтальный участок соответствует области бозе-
+File: ../7/../7/images/izo.jpg Graphic file (type bmp)
+<../7/../7/images/izo.jpg>
+
+Underfull \hbox (badness 2951) in paragraph at lines 326--326
+[]\TU/cmunrm.otf(0)/m/n/10 Рис. 7.4: []Изотермы идеального бозе-газа. Горизонтальный участок соответствует области бозе-
  []
 
 
 
 [64]
 
-[65]) (../8/../8/8.tex
+[65]
 
-[66]
+[66]) (../8/../8/8.tex
+
+[67]
 Глава 8.
 
 
-[67
+[68
 
 ]
-
-[68]
 
 [69]
 
-[70]) (../9/../9/9.tex
+[70]
 
-[71]
+[71]) (../9/../9/9.tex
+
+[72]
 Глава 9.
 
 
-[72
+[73
 
 ]
 
-[73]
-
 [74]
-Overfull \hbox (18.2984pt too wide) in paragraph at lines 209--210
+
+[75]
+Overfull \hbox (18.2984pt too wide) in paragraph at lines 210--211
 \TU/cmunrm.otf(0)/m/n/10 Перейдём от суммирования по $[]$ к интегрированию. Каждая точка $[]$ занимает объём $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ^^Y\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 L\OT1/cmr/m/n/10 )[]$ \TU/cmunrm.otf(0)/m/n/10 в $[]$-пространстве,
  []
 
 
 
-[75]) (../10/../10/10.tex
+[76]) (../10/../10/10.tex
 
-[76]
+[77]
 Глава 10.
 
 
-[77
+[78
 
 ]
 
-[78]
+[79]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
+(hyperref)                removing `math shift' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
+(hyperref)                removing `math shift' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 147.
+(hyperref)                removing `math shift' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dagger' on input line 147.
+(hyperref)                removing `superscript' on input line 148.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
+(hyperref)                removing `\dagger' on input line 148.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 148.
 
 
 
-[79]) (../11/../11/11.tex
+[80]) (../11/../11/11.tex
 
-[80]
+[81]
 Глава 11.
 
 
-[81
+[82
 
 ]
 
-[82]
+[83]
 
-[83]) (../12/../12/12.tex
+[84]) (../12/../12/12.tex
 
-[84]
+[85]
 Глава 12.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 13.
+(hyperref)                removing `subscript' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 13.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 13.
+(hyperref)                removed on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 13.
+(hyperref)                removing `math shift' on input line 14.
 
 
 
-[85
+[86
 
 ]
-
-[86]
 
 [87]
 
 [88]
-Overfull \hbox (2.26115pt too wide) in paragraph at lines 288--288
+
+[89]
+Overfull \hbox (2.26115pt too wide) in paragraph at lines 289--289
 [][]\TU/cmunrm.otf(0)/b/n/14.4 Флуктуации параметра порядка. Функционал Гинзбурга–Ландау 
  []
 
 
-Overfull \hbox (3.01772pt too wide) in paragraph at lines 301--302
+Overfull \hbox (3.01772pt too wide) in paragraph at lines 302--303
 \TU/cmunrm.otf(0)/m/n/10 Неоднородная конфигурация $\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 ([])$ \TU/cmunrm.otf(0)/m/n/10 стоит дополнительной энергии. Пространственная неоднородность опре-
  []
 
 
 
-[89]
+[90]
 
-[90])
+[91])
 
-[91] (./general.aux)
+[92] (./general.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
@@ -859,12 +874,12 @@ Package rerunfilecheck Info: File `general.out' has not changed.
 (rerunfilecheck)             Checksum: A6CA19AE9720624CE931EB3B081B98A5;30086.
  ) 
 Here is how much of TeX's memory you used:
- 13976 strings out of 468442
- 269350 string characters out of 5445571
+ 14019 strings out of 468442
+ 270470 string characters out of 5445571
  773796 words of memory out of 5000000
- 42150 multiletter control sequences out of 15000+600000
+ 42183 multiletter control sequences out of 15000+600000
  635298 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,12n,96p,995b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on general.xdv (92 pages, 2029816 bytes).
+Output written on general.xdv (93 pages, 2031632 bytes).

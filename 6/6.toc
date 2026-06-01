@@ -1,0 +1,27 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Лекция №6}{1}{chapter.1}%
+\contentsline {section}{Приближённое вычисление интегралов с функцией Ферми-Дирака}{3}{section*.2}%
+\contentsline {subsection}{Постановка задачи}{3}{section*.3}%
+\contentsline {subsection}{Вывод разложения Зоммерфельда}{3}{section*.4}%
+\contentsline {subsection}{Форма разложения в исходных переменных}{4}{section*.5}%
+\contentsline {section}{Химический потенциал ферми-газа при низких температурах}{4}{section*.6}%
+\contentsline {subsection}{Уравнение для числа частиц}{4}{section*.7}%
+\contentsline {subsection}{Применение разложения Зоммерфельда}{4}{section*.8}%
+\contentsline {subsection}{Нахождение $\mu (T)$}{4}{section*.9}%
+\contentsline {subsection}{График зависимости $\mu (T)$}{4}{section*.10}%
+\contentsline {section}{Энергия и теплоёмкость идеального ферми-газа}{5}{section*.11}%
+\contentsline {subsection}{Энергия при $T = 0$}{5}{section*.12}%
+\contentsline {subsection}{Высокотемпературный предел}{5}{section*.13}%
+\contentsline {subsection}{Низкотемпературный случай: применение разложения Зоммерфельда}{6}{section*.14}%
+\contentsline {subsection}{Теплоёмкость ферми-газа}{6}{section*.15}%
+\contentsline {subsection}{Физическая интерпретация линейной теплоёмкости}{6}{section*.16}%
+\contentsline {section}{Уравнение состояния идеального ферми-газа}{6}{section*.17}%
+\contentsline {subsection}{Связь $\Omega $-потенциала с энергией}{7}{section*.18}%
+\contentsline {subsection}{Уравнение состояния: $PV = \frac {2}{3}E$}{7}{section*.19}%
+\contentsline {subsection}{Уравнение состояния при высоких температурах}{8}{section*.20}%
+\contentsline {subsection}{Уравнение состояния при низких температурах}{8}{section*.21}%
+\contentsline {section}{Большой канонический ансамбль для идеального бозе-газа}{8}{section*.22}%
+\contentsline {subsection}{Вычисление статистической суммы: метод одного уровня}{9}{section*.23}%
+\contentsline {subsection}{Полная статистическая сумма}{9}{section*.24}%
+\contentsline {subsection}{Распределение Бозе-Эйнштейна}{9}{section*.25}%
+\contentsline {subsection}{Уравнение на среднее число частиц и бозе-интегралы}{10}{section*.26}%

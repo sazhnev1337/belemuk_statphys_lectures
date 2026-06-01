@@ -1,1 +1,39 @@
 \babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Лекция №1: Основы статистического описания: Микроканоническое распределение и энтропия Больцмана}{1}{chapter.1}%
+\contentsline {section}{Введение в статистическое описание систем}{3}{section*.2}%
+\contentsline {subsection}{Объект изучения: макроскопические системы}{3}{section*.3}%
+\contentsline {subsection}{Условие термодинамического предела ($N \gg 1$)}{3}{section*.4}%
+\contentsline {subsection}{Классическое описание системы из $N$ атомов}{3}{section*.5}%
+\contentsline {section}{Фазовое пространство и микроскопическая динамика}{3}{section*.6}%
+\contentsline {subsection}{Определение фазового $\Gamma $-пространства}{3}{section*.7}%
+\contentsline {subsection}{Изображающая точка и фазовая траектория}{4}{section*.8}%
+\contentsline {subsection}{Уравнения движения Гамильтона}{4}{section*.9}%
+\contentsline {section}{Геометрия фазового пространства изолированной системы}{4}{section*.10}%
+\contentsline {subsection}{Закон сохранения энергии и энергетическая гиперповерхность}{4}{section*.11}%
+\contentsline {subsection}{Понятие энергетического слоя}{5}{section*.12}%
+\contentsline {section}{Макросостояние и статистическое усреднение}{5}{section*.13}%
+\contentsline {subsection}{Определение макроскопического состояния через параметры (E, V, N)}{5}{section*.14}%
+\contentsline {subsection}{Проблема измерения физических величин}{5}{section*.15}%
+\contentsline {subsection}{Временное среднее значение величины}{6}{section*.16}%
+\contentsline {subsection}{Сложность отслеживания микроскопической динамики}{6}{section*.17}%
+\contentsline {section}{Метод статистических ансамблей}{6}{section*.18}%
+\contentsline {subsection}{Понятие статистического ансамбля}{6}{section*.19}%
+\contentsline {subsection}{Плотность распределения в фазовом пространстве}{7}{section*.20}%
+\contentsline {subsection}{Эргодическая гипотеза}{7}{section*.21}%
+\contentsline {subsection}{Нормировка плотности распределения}{7}{section*.22}%
+\contentsline {section}{Микроканоническое распределение}{8}{section*.23}%
+\contentsline {subsection}{Постулат о равновероятности микросостояний}{8}{section*.24}%
+\contentsline {subsection}{Математическая запись плотности распределения}{8}{section*.25}%
+\contentsline {subsection}{Нормировка и статистический вес $\Omega (E)$}{8}{section*.26}%
+\contentsline {section}{Основные статистические функции}{8}{section*.27}%
+\contentsline {subsection}{Фазовый интеграл $\Gamma (E)$}{8}{section*.28}%
+\contentsline {subsection}{Плотность состояний $D(E)$}{9}{section*.29}%
+\contentsline {subsection}{Безразмерный элемент фазового объема и тождественность частиц}{9}{section*.30}%
+\contentsline {section}{Статистическая энтропия}{9}{section*.31}%
+\contentsline {subsection}{Энтропия и формула Больцмана}{9}{section*.32}%
+\contentsline {subsection}{Свойство аддитивности энтропии}{10}{section*.33}%
+\contentsline {section}{Применение метода: Идеальный газ Больцмана}{10}{section*.34}%
+\contentsline {subsection}{Гамильтониан идеального газа}{10}{section*.35}%
+\contentsline {subsection}{Вычисление фазового интеграла}{10}{section*.36}%
+\contentsline {subsection}{Объем многомерного шара}{10}{section*.37}%
+\contentsline {subsection}{Итоговое выражение для энтропии}{11}{section*.38}%

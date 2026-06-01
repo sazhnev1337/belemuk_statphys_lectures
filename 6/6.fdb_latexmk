@@ -1,20 +1,14 @@
 # Fdb version 4
-["xdvipdfmx"] 1780260332.3218 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.pdf" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6" 1780260332.54205 0
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" 1780260332.28832 128776 740b14ffdce0a792d18d921c87e9cd12 "xelatex"
+["xdvipdfmx"] 1780326131.04795 "6.xdv" "6.pdf" "6" 1780326131.40007 0
+  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" 1780326130.9773 136128 7489b36796f0f625f28cd83aa41b1610 ""
+  "6.xdv" 1780326130.9773 136128 7489b36796f0f625f28cd83aa41b1610 "xelatex"
   (generated)
   "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.pdf"
+  "6.pdf"
   (rewritten before read)
-["xelatex"] 1780260331.74297 "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv" "6" 1780260332.54112 0
+["xelatex"] 1780326130.22207 "6.tex" "6.xdv" "6" 1780326131.39882 0
   "../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
   "../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/../general/general.tex" 1779471807.68129 626 e188adf53c2804023563f3d4469a1037 ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/../preamble.tex" 1778695758.50443 694 5adb0323df61d06bd37370280f246ffb ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.aux" 1780260332.28568 6049 6dcd02d80b02d5839b7eb4340eef3256 "xelatex"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.out" 1780260332.28668 2381 30ffc32e72399db515c3ff558ab22710 "xelatex"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.tex" 1780260330.97493 28435 47cffe666dcc84a9c710e488de01c444 ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/E.jpg" 1778851604.89416 31998 a5e9711a7e7ee192f04b09bd40bdb163 ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/mu.jpg" 1778850354.71057 28957 d321ea95ecfb3c548c908a8bf890f680 ""
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/images/sost.jpg" 1778854779.01335 34315 c16e10e218e0bf39d0dc4cb6f9bbbbb4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -99,9 +93,17 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1755117454 5898300 db3e11b6e615ac88f840d776ba7792ae ""
   "/usr/local/texlive/2025/texmf.cnf" 1755117416.29276 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "6.aux" 1780326130.97571 6053 f60bba72eb90658e59a16e4f91d20ffb "xelatex"
+  "6.out" 1780326130.97671 2381 bd55d5be8ddf12c323fb90c7c9b3ab87 "xelatex"
+  "6.tex" 1780326005.26214 28486 c796839a459e697b162aa7abb0844d61 ""
+  "6.toc" 1780326130.9773 2972 88bd75a92e736997b8f87ddba629b14a "xelatex"
+  "images/E.jpg" 1778851604.89416 31998 a5e9711a7e7ee192f04b09bd40bdb163 ""
+  "images/mu.jpg" 1778850354.71057 28957 d321ea95ecfb3c548c908a8bf890f680 ""
+  "images/sost.jpg" 1778854779.01335 34315 c16e10e218e0bf39d0dc4cb6f9bbbbb4 ""
   (generated)
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.aux"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.log"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.out"
-  "/home/sazhnev/Main/Study/stat_phys/lectures/6/6.xdv"
+  "6.aux"
+  "6.log"
+  "6.out"
+  "6.toc"
+  "6.xdv"
   (rewritten before read)
